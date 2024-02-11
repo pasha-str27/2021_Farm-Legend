@@ -1,0 +1,90 @@
+
+pig.png
+size: 764,1020
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 411
+  size: 607, 457
+  orig: 609, 459
+  offset: 1, 1
+  index: -1
+chansau
+  rotate: false
+  xy: 403, 144
+  size: 145, 224
+  orig: 147, 226
+  offset: 1, 1
+  index: -1
+chansau2
+  rotate: false
+  xy: 403, 144
+  size: 145, 224
+  orig: 147, 226
+  offset: 1, 1
+  index: -1
+chantrc1
+  rotate: false
+  xy: 550, 149
+  size: 103, 219
+  orig: 105, 221
+  offset: 1, 1
+  index: -1
+chantrc2
+  rotate: false
+  xy: 550, 149
+  size: 103, 219
+  orig: 105, 221
+  offset: 1, 1
+  index: -1
+dau
+  rotate: true
+  xy: 2, 14
+  size: 395, 399
+  orig: 397, 401
+  offset: 1, 1
+  index: -1
+duisau1
+  rotate: true
+  xy: 403, 2
+  size: 140, 163
+  orig: 142, 165
+  offset: 1, 1
+  index: -1
+duisau2
+  rotate: true
+  xy: 403, 2
+  size: 140, 163
+  orig: 142, 165
+  offset: 1, 1
+  index: -1
+duitrc1
+  rotate: false
+  xy: 655, 225
+  size: 107, 143
+  orig: 109, 145
+  offset: 1, 1
+  index: -1
+duitrc2
+  rotate: false
+  xy: 655, 225
+  size: 107, 143
+  orig: 109, 145
+  offset: 1, 1
+  index: -1
+duoi
+  rotate: false
+  xy: 568, 54
+  size: 182, 93
+  orig: 184, 95
+  offset: 1, 1
+  index: -1
+shadow
+  rotate: true
+  xy: 461, 370
+  size: 648, 244
+  orig: 658, 254
+  offset: 5, 5
+  index: -1

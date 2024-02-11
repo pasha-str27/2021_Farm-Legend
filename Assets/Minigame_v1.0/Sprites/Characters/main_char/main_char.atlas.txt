@@ -1,0 +1,76 @@
+
+main_char.png
+size: 192,151
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baptay1
+  rotate: true
+  xy: 154, 13
+  size: 32, 34
+  orig: 34, 36
+  offset: 1, 1
+  index: -1
+baptay2
+  rotate: false
+  xy: 86, 117
+  size: 30, 32
+  orig: 32, 34
+  offset: 1, 1
+  index: -1
+body
+  rotate: true
+  xy: 2, 2
+  size: 55, 75
+  orig: 57, 77
+  offset: 1, 1
+  index: -1
+canhtay1
+  rotate: true
+  xy: 2, 59
+  size: 90, 82
+  orig: 92, 84
+  offset: 1, 1
+  index: -1
+canhtay2
+  rotate: false
+  xy: 119, 4
+  size: 33, 41
+  orig: 35, 43
+  offset: 1, 1
+  index: -1
+chan1
+  rotate: true
+  xy: 86, 62
+  size: 23, 29
+  orig: 25, 31
+  offset: 1, 1
+  index: -1
+chan2
+  rotate: false
+  xy: 86, 87
+  size: 29, 28
+  orig: 31, 30
+  offset: 1, 1
+  index: -1
+dui1
+  rotate: false
+  xy: 79, 16
+  size: 38, 41
+  orig: 40, 43
+  offset: 1, 1
+  index: -1
+dui2
+  rotate: true
+  xy: 119, 47
+  size: 38, 41
+  orig: 40, 43
+  offset: 1, 1
+  index: -1
+head
+  rotate: false
+  xy: 119, 87
+  size: 71, 62
+  orig: 73, 64
+  offset: 1, 1
+  index: -1

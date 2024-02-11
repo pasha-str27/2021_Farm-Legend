@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - UICamera
+  - TouchCamera
+  - GameCamera
+  - Table
+  - LandUmbrella
+  - Canvas
+  - Cage
+  - AnimalDrag
+  - mong_house
+  - mong_nha
+  - mat_dat
+  - Floor
+  - mai_nha
+  - chuong
+  - Minigame
+  - ground
+  - dan
+  - da
+  - enemy
+  - coin
+  - duiga
+  - rootcoin
+  - key
+  - da1
+  - dentuong
+  - win
+  - muikhoan
+  - dungnhamvahoinuoc
+  - PlayerPhu
+  - vongQuay
+  - VaChamDaRoi
+  - stop
+  - cua
+  - khucGo
+  - draft
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - GameCore
+  - Player
+  - Enemy
+  - Ragdoll
+  - DeadBody
+  - Envi
+  - MiniGame
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Middle
+    uniqueID: 3810672129
+    locked: 0
+  - name: Canvas
+    uniqueID: 2562023747
+    locked: 0

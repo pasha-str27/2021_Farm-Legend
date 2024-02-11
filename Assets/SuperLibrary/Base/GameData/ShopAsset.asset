@@ -1,0 +1,2781 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0654e62b9c5630c4887e73e628a59f28, type: 3}
+  m_Name: ShopAsset
+  m_EditorClassIdentifier: 
+  useRandom: 0
+  list:
+  - name: Land
+    id: 0
+    idThumb: 
+    index: 0
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 2
+    price: 20
+    price2: 20
+    levelUnlock: 3
+    levelUnlock2: 0
+    quantityBuild: 6
+    nameV: "\xD4 \u0111\u1EA5t"
+    typeShop: 0
+    spIcon: {fileID: 21300000, guid: b7dab0932041887469693e4f73caf2ab, type: 3}
+    prefabs: {fileID: 5610314599162415578, guid: 710dda4683442e84a9a04ef9a68f692a,
+      type: 3}
+  - name: Henhouse
+    id: 1
+    idThumb: 
+    index: 1
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 3
+    price: 10
+    price2: 50
+    levelUnlock: 2
+    levelUnlock2: 20
+    quantityBuild: 4
+    nameV: "Chu\u1ED3ng g\xE0"
+    typeShop: 0
+    spIcon: {fileID: 21300000, guid: 45e45d292d15c074bbd7705094291ca2, type: 3}
+    prefabs: {fileID: 4878103011933378526, guid: a6af9bef1ade57f4ebabaa26b4338a0e,
+      type: 3}
+  - name: Beehive
+    id: 2
+    idThumb: 
+    index: 2
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 4
+    price: 50
+    price2: 250
+    levelUnlock: 7
+    levelUnlock2: 27
+    quantityBuild: 4
+    nameV: "T\u1ED5 ong"
+    typeShop: 0
+    spIcon: {fileID: 21300000, guid: 5e90440e22739944097939aee472ac10, type: 3}
+    prefabs: {fileID: 6105649821986942912, guid: acec5e69c0d45954cbcd2688e9b54909,
+      type: 3}
+  - name: Cowshed
+    id: 3
+    idThumb: 
+    index: 3
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 3
+    price: 40
+    price2: 200
+    levelUnlock: 6
+    levelUnlock2: 26
+    quantityBuild: 4
+    nameV: "Chu\u1ED3ng b\xF2"
+    typeShop: 0
+    spIcon: {fileID: 21300000, guid: 7b54610144ecbbb4f9d5e22ab24793a4, type: 3}
+    prefabs: {fileID: 8576169957861749825, guid: 8a839d8bed1afe34994bf13860bc02b2,
+      type: 3}
+  - name: Ostrich House
+    id: 4
+    idThumb: 
+    index: 4
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 6
+    price: 100
+    price2: 500
+    levelUnlock: 11
+    levelUnlock2: 31
+    quantityBuild: 4
+    nameV: "Chu\u1ED3ng \u0111\xE0 \u0111i\u1EC3u"
+    typeShop: 0
+    spIcon: {fileID: 21300000, guid: de9f0544f3471884181add533e416b21, type: 3}
+    prefabs: {fileID: 6338294078337753748, guid: a516003d12e209e48b472df914685600,
+      type: 3}
+  - name: Peacock House
+    id: 5
+    idThumb: 
+    index: 5
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 4
+    price: 70
+    price2: 350
+    levelUnlock: 8
+    levelUnlock2: 28
+    quantityBuild: 4
+    nameV: "Chu\u1ED3ng c\xF4ng"
+    typeShop: 0
+    spIcon: {fileID: 21300000, guid: de6ddf00f052d4546afc455f7c567384, type: 3}
+    prefabs: {fileID: 3974599378312624699, guid: c5ec8cce86173314f9e9e35f49da76c0,
+      type: 3}
+  - name: Pigpen
+    id: 6
+    idThumb: 
+    index: 6
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 5
+    price: 80
+    price2: 400
+    levelUnlock: 9
+    levelUnlock2: 29
+    quantityBuild: 4
+    nameV: "Chu\u1ED3ng l\u1EE3n"
+    typeShop: 0
+    spIcon: {fileID: 21300000, guid: 75cd8445cd0b25643ab7c37551b7caed, type: 3}
+    prefabs: {fileID: 4139390984146990152, guid: 1f1f0d58a3af56847b65adc2cf8a6a52,
+      type: 3}
+  - name: Sheepfold
+    id: 7
+    idThumb: 
+    index: 7
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 7
+    price: 120
+    price2: 600
+    levelUnlock: 12
+    levelUnlock2: 32
+    quantityBuild: 4
+    nameV: "Chu\u1ED3ng c\u1EEBu"
+    typeShop: 0
+    spIcon: {fileID: 21300000, guid: 17a753f6aa0f1354fb6b4ec63a50f17d, type: 3}
+    prefabs: {fileID: 872325387057798501, guid: 3dbe6aa3a48a1974bbd3bc1e7fee0989,
+      type: 3}
+  - name: Bee
+    id: 8
+    idThumb: 
+    index: 8
+    description: Beehive
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 4
+    price: 80
+    price2: 400
+    levelUnlock: 7
+    levelUnlock2: 27
+    quantityBuild: 6
+    nameV: Con Ong
+    typeShop: 2
+    spIcon: {fileID: 21300000, guid: 55e62f7e17fa5da4cb84e5df9e82b925, type: 3}
+    prefabs: {fileID: 3025536645004414304, guid: 7a0a6752d7231bf4a89642927b7d444c,
+      type: 3}
+  - name: Chicken
+    id: 9
+    idThumb: 
+    index: 9
+    description: Henhouse
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 2
+    price: 10
+    price2: 20
+    levelUnlock: 2
+    levelUnlock2: 20
+    quantityBuild: 6
+    nameV: "Con G\xE0"
+    typeShop: 2
+    spIcon: {fileID: 21300000, guid: df715ab2a5b86f74c84df2180237534b, type: 3}
+    prefabs: {fileID: 3025536645004414304, guid: e4ffaafab59a39843a02cafa37b1d103,
+      type: 3}
+  - name: Cow
+    id: 10
+    idThumb: 
+    index: 10
+    description: Cowshed
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 3
+    price: 30
+    price2: 300
+    levelUnlock: 6
+    levelUnlock2: 26
+    quantityBuild: 6
+    nameV: "Con B\xF2"
+    typeShop: 2
+    spIcon: {fileID: 21300000, guid: 3eb2ce5c49e897848b40ddf541125427, type: 3}
+    prefabs: {fileID: 3025536645004414304, guid: 6018e17e0ce109e4ea7050ac628e1812,
+      type: 3}
+  - name: Ostrich
+    id: 11
+    idThumb: 
+    index: 11
+    description: Ostrich House
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 7
+    price: 640
+    price2: 1100
+    levelUnlock: 11
+    levelUnlock2: 31
+    quantityBuild: 6
+    nameV: "Con \u0110\xE0 \u0111i\u1EC3u"
+    typeShop: 2
+    spIcon: {fileID: 21300000, guid: bcf04ae70e56a604885e849f7a0aa077, type: 3}
+    prefabs: {fileID: 3025536645004414304, guid: a833cc6d0bb10ae4d9a5c5048ef12825,
+      type: 3}
+  - name: Peacock
+    id: 12
+    idThumb: 
+    index: 12
+    description: Peacock House
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 5
+    price: 300
+    price2: 900
+    levelUnlock: 8
+    levelUnlock2: 28
+    quantityBuild: 6
+    nameV: "Con C\xF4ng"
+    typeShop: 2
+    spIcon: {fileID: 21300000, guid: 29156024c295a4e4d8aaa0fdabcf912c, type: 3}
+    prefabs: {fileID: 3025536645004414304, guid: 8a12e41da6afe4746a077b22652d2a1d,
+      type: 3}
+  - name: Pig
+    id: 13
+    idThumb: 
+    index: 13
+    description: Pigpen
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 6
+    price: 80
+    price2: 800
+    levelUnlock: 9
+    levelUnlock2: 29
+    quantityBuild: 6
+    nameV: "Con L\u1EE3n"
+    typeShop: 2
+    spIcon: {fileID: 21300000, guid: 48b9f1ebd8918774dab2f9b725e7e39d, type: 3}
+    prefabs: {fileID: 3025536645004414304, guid: 9e58e0daf0208504c85b8c88e1dfd453,
+      type: 3}
+  - name: Sheep
+    id: 14
+    idThumb: 
+    index: 14
+    description: Sheepfold
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 8
+    price: 380
+    price2: 1000
+    levelUnlock: 12
+    levelUnlock2: 32
+    quantityBuild: 6
+    nameV: "Con C\u1EEBu"
+    typeShop: 2
+    spIcon: {fileID: 21300000, guid: 05afbbddaf6c71b44985a74bc365746d, type: 3}
+    prefabs: {fileID: 3025536645004414304, guid: 05b831945a3726b4fa551df0bf51df9b,
+      type: 3}
+  - name: Accessories
+    id: 15
+    idThumb: 
+    index: 15
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 6
+    price: 90
+    price2: 180
+    levelUnlock: 8
+    levelUnlock2: 21
+    quantityBuild: 4
+    nameV: "M\xE1y ph\u1EE5 ki\u1EC7n"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 22b8d87f8048a344ba2951e7b6f958d4, type: 3}
+    prefabs: {fileID: 7931184270958282633, guid: 5e3af7ecee8997442ac601ccaefd2d15,
+      type: 3}
+  - name: Bakery
+    id: 16
+    idThumb: 
+    index: 16
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 2
+    price: 10
+    price2: 240
+    levelUnlock: 1
+    levelUnlock2: 14
+    quantityBuild: 4
+    nameV: "C\u1EEDa h\xE0ng b\xE1nh m\xEC"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 5684cf4edb300124e920c77dcd638e27, type: 3}
+    prefabs: {fileID: 6427043957785802202, guid: 4cdb7973d56b2ba4b8d5cfe9b172e12a,
+      type: 3}
+  - name: Corn Oven
+    id: 17
+    idThumb: 
+    index: 17
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 5
+    price: 60
+    price2: 134
+    levelUnlock: 7
+    levelUnlock2: 20
+    quantityBuild: 4
+    nameV: "L\xF2 ng\xF4"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 5cbdd8d3185b71946950cf2e9efbdf4a, type: 3}
+    prefabs: {fileID: 7686929502452693893, guid: 77a41ed8a98950543a8aabd46d186436,
+      type: 3}
+  - name: Dairy
+    id: 18
+    idThumb: 
+    index: 18
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 4
+    price: 40
+    price2: 170
+    levelUnlock: 6
+    levelUnlock2: 19
+    quantityBuild: 4
+    nameV: "S\u1EA3n ph\u1EA9m b\u01A1 s\u1EEFa"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 19ca052bc067edd4cafd3f973299329f, type: 3}
+    prefabs: {fileID: 334701907926246685, guid: 07b73854eec6d6a43bb1b2bf4ab79942,
+      type: 3}
+  - name: Food Processor
+    id: 19
+    idThumb: 
+    index: 19
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 3
+    price: 30
+    price2: 132
+    levelUnlock: 2
+    levelUnlock2: 15
+    quantityBuild: 4
+    nameV: "M\xE1y th\u1EE9c \u0103n v\u1EADt nu\xF4i"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 8ae7280e344f9ff4ca4606098d108de5, type: 3}
+    prefabs: {fileID: 2185858733582726853, guid: a9499b1ae05eb9e408de4d98a4b24a38,
+      type: 3}
+  - name: Pie Bakery
+    id: 20
+    idThumb: 
+    index: 20
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 6
+    price: 80
+    price2: 300
+    levelUnlock: 8
+    levelUnlock2: 21
+    quantityBuild: 4
+    nameV: "Ti\u1EC7m b\xE1nh"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 49190dd3a4dde51488fb745008df5f88, type: 3}
+    prefabs: {fileID: 3296910103130683020, guid: d74393198035d564d8d22c52cdf9a75a,
+      type: 3}
+  - name: Roaster
+    id: 21
+    idThumb: 
+    index: 21
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 8
+    price: 120
+    price2: 200
+    levelUnlock: 10
+    levelUnlock2: 23
+    quantityBuild: 4
+    nameV: "M\xE1y rang xay"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 624222243f79f8b4a9451b2a393869d3, type: 3}
+    prefabs: {fileID: 7741144049422978662, guid: fcefff2fc765e7a4d82d8bff27104df7,
+      type: 3}
+  - name: Sugar Processor
+    id: 22
+    idThumb: 
+    index: 22
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 5
+    price: 70
+    price2: 280
+    levelUnlock: 7
+    levelUnlock2: 20
+    quantityBuild: 4
+    nameV: "Nh\xE0 m\xE1y \u0111\u01B0\u1EDDng"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 2afb2a2ac3dc69c47a9daf135d6be772, type: 3}
+    prefabs: {fileID: 497577486423247330, guid: d00cad24757a4f745b855034bdc05039,
+      type: 3}
+  - name: Sushishop
+    id: 23
+    idThumb: 
+    index: 23
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 7
+    price: 100
+    price2: 160
+    levelUnlock: 9
+    levelUnlock2: 22
+    quantityBuild: 4
+    nameV: "C\u1EEDa h\xE0ng sushi"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: cf81b57d8ae5df74a87b7bda478d39a7, type: 3}
+    prefabs: {fileID: 425292213243068605, guid: b63d0a1ba01b6f64dbe49ed6828ab37c,
+      type: 3}
+  - name: Blender
+    id: 24
+    idThumb: 
+    index: 24
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 700
+    price: 70000
+    price2: 90000
+    levelUnlock: 45
+    levelUnlock2: 50
+    quantityBuild: 4
+    nameV: "M\xE1y xay"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: f995a45f91a0c98429f56c6dd437510a, type: 3}
+    prefabs: {fileID: 5796375516407172429, guid: 2ac1cf611e832954db55438cd117661e,
+      type: 3}
+  - name: Cake Bakery
+    id: 25
+    idThumb: 
+    index: 25
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 48
+    price: 4800
+    price2: 7200
+    levelUnlock: 18
+    levelUnlock2: 35
+    quantityBuild: 4
+    nameV: "Ti\u1EC7m b\xE1nh kem"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 3937dce111b7df840a56943b81811c84, type: 3}
+    prefabs: {fileID: 4699577000634315024, guid: 1d837c6eb70d748469483660bbc77ac1,
+      type: 3}
+  - name: Candy Factory
+    id: 26
+    idThumb: 
+    index: 26
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 250
+    price: 25000
+    price2: 50000
+    levelUnlock: 33
+    levelUnlock2: 44
+    quantityBuild: 4
+    nameV: "Nh\xE0 m\xE1y k\u1EB9o"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: d341556e036ca1c4f8d4585b81ad43ad, type: 3}
+    prefabs: {fileID: 1277670203517355374, guid: c7869b5c23581194d84d393c735531c8,
+      type: 3}
+  - name: Coffe Machine
+    id: 27
+    idThumb: 
+    index: 27
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 64
+    price: 6400
+    price2: 10200
+    levelUnlock: 21
+    levelUnlock2: 38
+    quantityBuild: 4
+    nameV: "M\xE1y pha c\xE0 ph\xEA"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: e44efce0c189d9640832761dc08098a9, type: 3}
+    prefabs: {fileID: 4988023865467770040, guid: 4e976ad68c0a95b4fbd74019e9e36eda,
+      type: 3}
+  - name: Cream Freezer
+    id: 28
+    idThumb: 
+    index: 28
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 80
+    price: 8000
+    price2: 12400
+    levelUnlock: 46
+    levelUnlock2: 55
+    quantityBuild: 4
+    nameV: "Kem \u0111\xF4ng l\u1EA1nh"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: fc10026e67868954496f9a5140b9dc6e, type: 3}
+    prefabs: {fileID: 7023248896615729377, guid: 8c9cf2fdb8ffc384095deb7149539547,
+      type: 3}
+  - name: Flower Factory
+    id: 29
+    idThumb: 
+    index: 29
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 40
+    price: 4000
+    price2: 7000
+    levelUnlock: 15
+    levelUnlock2: 32
+    quantityBuild: 4
+    nameV: "Nh\xE0 m\xE1y hoa"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 8a6973189c700534595aa7532a53d3e5, type: 3}
+    prefabs: {fileID: 5930809541598356610, guid: 49bacb553e1cce142bdc6341657ce17f,
+      type: 3}
+  - name: Goldsmith
+    id: 30
+    idThumb: 
+    index: 30
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 5
+    price: 560
+    price2: 1000
+    levelUnlock: 11
+    levelUnlock2: 22
+    quantityBuild: 4
+    nameV: "Th\u1EE3 kim ho\xE0n"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 77fbd2d031a05b6449475067a0f95770, type: 3}
+    prefabs: {fileID: 7295038705441041169, guid: ce7b5ff467d106142904434df712679c,
+      type: 3}
+  - name: Hats
+    id: 31
+    idThumb: 
+    index: 31
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 10
+    price: 500
+    price2: 900
+    levelUnlock: 10
+    levelUnlock2: 20
+    quantityBuild: 4
+    nameV: "M\xE1y s\u1EA3n xu\u1EA5t m\u0169"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 193bdc2dfd436d9478c48419cdf9a43e, type: 3}
+    prefabs: {fileID: 6164309193579818714, guid: 7ab6eb57ac0383d4686ff593d53a9bc9,
+      type: 3}
+  - name: Jam Factory
+    id: 32
+    idThumb: 
+    index: 32
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 300
+    price: 30000
+    price2: 42000
+    levelUnlock: 35
+    levelUnlock2: 44
+    quantityBuild: 4
+    nameV: "Nh\xE0 m\xE1y m\u1EE9t"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 07bb5b5d3eed10b4f92f05fbcd5a82f1, type: 3}
+    prefabs: {fileID: 215222803611661294, guid: 60d387fd3296d8c49ac433f3f51b537e,
+      type: 3}
+  - name: Juicer
+    id: 33
+    idThumb: 
+    index: 33
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 200
+    price: 20000
+    price2: 44000
+    levelUnlock: 29
+    levelUnlock2: 37
+    quantityBuild: 4
+    nameV: "M\xE1y \xE9p tr\xE1i c\xE2y"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 18c09c43477b746499abe99898eaa3b2, type: 3}
+    prefabs: {fileID: 6620894618753162820, guid: 23d176942afc9f14c9a3c82d86da0c77,
+      type: 3}
+  - name: Knitting Table
+    id: 34
+    idThumb: 
+    index: 34
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 36
+    price: 3600
+    price2: 4800
+    levelUnlock: 14
+    levelUnlock2: 21
+    quantityBuild: 4
+    nameV: "B\xE0n \u0111an"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: eb7341cbb98ecc04f8df0401a4956802, type: 3}
+    prefabs: {fileID: 4182480503237527433, guid: d51d5bd300463ec4c8cdfb051fb4748c,
+      type: 3}
+  - name: Mexican Food
+    id: 35
+    idThumb: 
+    index: 35
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 600
+    price: 60000
+    price2: 90000
+    levelUnlock: 40
+    levelUnlock2: 58
+    quantityBuild: 4
+    nameV: "Th\u1EE9c \u0103n Mexico"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: ec0dd58993ad5834290fb5e84327a6b3, type: 3}
+    prefabs: {fileID: 2240679621285096911, guid: 2e69214b80a2e894cb6fdb244054d8d8,
+      type: 3}
+  - name: Paint Factory
+    id: 36
+    idThumb: 
+    index: 36
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 15
+    price: 1080
+    price2: 2400
+    levelUnlock: 13
+    levelUnlock2: 20
+    quantityBuild: 4
+    nameV: "Nh\xE0 m\xE1y s\u01A1n"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 408a31a74b66c2747b2bc9b65ca61855, type: 3}
+    prefabs: {fileID: 1720058765357615978, guid: 9de6a6f861a59624d8106e78e0538234,
+      type: 3}
+  - name: Paper Factory
+    id: 37
+    idThumb: 
+    index: 37
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 20
+    price: 2000
+    price2: 3500
+    levelUnlock: 14
+    levelUnlock2: 27
+    quantityBuild: 4
+    nameV: "M\xE1y s\u1EA3n xu\u1EA5t gi\u1EA5y"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 90a87f7cc71d89245a6db489f1b63aa9, type: 3}
+    prefabs: {fileID: 2450512342435378198, guid: 16de14bc0998f6149821de9200b72390,
+      type: 3}
+  - name: Pizza Oven
+    id: 38
+    idThumb: 
+    index: 38
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 97
+    price: 19500
+    price2: 25000
+    levelUnlock: 24
+    levelUnlock2: 39
+    quantityBuild: 4
+    nameV: "L\xF2 n\u01B0\u1EDBng pizza"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 2fec2070fd2b982428276156d45443f5, type: 3}
+    prefabs: {fileID: 8225053211543298691, guid: 10b696e9e556197488dcc7346ea921ce,
+      type: 3}
+  - name: Sewing Table
+    id: 39
+    idThumb: 
+    index: 39
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 30
+    price: 3000
+    price2: 4000
+    levelUnlock: 12
+    levelUnlock2: 28
+    quantityBuild: 4
+    nameV: "B\xE0n may"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 4f5c5c3de345ccf42870cc91e946ab73, type: 3}
+    prefabs: {fileID: 7444651157685596868, guid: 9ee62aae62dd91549add1cf6eada2831,
+      type: 3}
+  - name: Smelter
+    id: 40
+    idThumb: 
+    index: 40
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 12
+    price: 130
+    price2: 250
+    levelUnlock: 10
+    levelUnlock2: 20
+    quantityBuild: 4
+    nameV: "L\xF2 luy\u1EC7n"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 09118fdddceea9745a845cc16677dc47, type: 3}
+    prefabs: {fileID: 2619166697646777424, guid: ff98c6d688ada9642a1f01520a7ec41d,
+      type: 3}
+  - name: Wok
+    id: 41
+    idThumb: 
+    index: 41
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 800
+    price: 80000
+    price2: 120000
+    levelUnlock: 50
+    levelUnlock2: 60
+    quantityBuild: 4
+    nameV: "Nh\xE0 m\xE1y ch\u1EA3o"
+    typeShop: 1
+    spIcon: {fileID: 21300000, guid: 50c22776ad837f24296bc898f548d52a, type: 3}
+    prefabs: {fileID: 3278220265820455280, guid: db262f7ef639cc74f9c067ce4edf5921,
+      type: 3}
+  - name: Apple Tree
+    id: 42
+    idThumb: 
+    index: 42
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 5
+    price: 100
+    price2: 0
+    levelUnlock: 6
+    levelUnlock2: 25
+    quantityBuild: 4
+    nameV: "C\xE2y t\xE1o"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: e1c05329cae40a24a815ac2ad00b465f, type: 3}
+    prefabs: {fileID: 2262700923037192618, guid: a2525986aa320094e8bc428ece8d8ed2,
+      type: 3}
+  - name: Cacao Tree
+    id: 43
+    idThumb: 
+    index: 43
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 3
+    price: 100
+    price2: 0
+    levelUnlock: 18
+    levelUnlock2: 30
+    quantityBuild: 4
+    nameV: "C\xE2y CaCao"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: 86c48719aa8930a42b961951eed9fad4, type: 3}
+    prefabs: {fileID: 136531182484690413, guid: e74e3a0c65a9aa540be2c82c7e7c5f6a,
+      type: 3}
+  - name: Cherry Tree
+    id: 44
+    idThumb: 
+    index: 44
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 4
+    price: 100
+    price2: 0
+    levelUnlock: 11
+    levelUnlock2: 35
+    quantityBuild: 4
+    nameV: "C\xE2y anh \u0111\xE0o"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: f995d37145a44f4479b42ec304dfbfca, type: 3}
+    prefabs: {fileID: 281450429829046405, guid: ca6d6085c82786d4b97d0e92038ff4ae,
+      type: 3}
+  - name: Golden Daisy Tree
+    id: 45
+    idThumb: 
+    index: 45
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 6
+    price: 70
+    price2: 0
+    levelUnlock: 15
+    levelUnlock2: 29
+    quantityBuild: 4
+    nameV: "Hoa c\xFAc v\xE0ng"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: 461a700f006f34a4f92235290b0a9310, type: 3}
+    prefabs: {fileID: 2271625515484803565, guid: 5e6e61513d7652c4faf22206df2b9922,
+      type: 3}
+  - name: Iris Tree
+    id: 46
+    idThumb: 
+    index: 46
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 7
+    price: 86
+    price2: 0
+    levelUnlock: 16
+    levelUnlock2: 30
+    quantityBuild: 4
+    nameV: "C\xE2y Iris"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: 37784fcb2b4c34f4790d68343f9b581d, type: 3}
+    prefabs: {fileID: 3895805317635044585, guid: b96780e36339bec41a05cb2575cbba6d,
+      type: 3}
+  - name: Lilac Tree
+    id: 47
+    idThumb: 
+    index: 47
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 8
+    price: 40
+    price2: 0
+    levelUnlock: 13
+    levelUnlock2: 33
+    quantityBuild: 4
+    nameV: "C\xE2y \u0111inh h\u01B0\u01A1ng"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: abd9293653627434ab1cf317c4cf31e2, type: 3}
+    prefabs: {fileID: 1559793237036631882, guid: b89d82d86c0bc724cbc5a20dfc3f9bee,
+      type: 3}
+  - name: Lily Tree
+    id: 48
+    idThumb: 
+    index: 48
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 7
+    price: 74
+    price2: 0
+    levelUnlock: 15
+    levelUnlock2: 40
+    quantityBuild: 4
+    nameV: Hoa lily
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: 612f7108489f70a47853d517f61fe5dc, type: 3}
+    prefabs: {fileID: 8705827626927902199, guid: 9452452f4b5eb3044b8c17663ef81d2b,
+      type: 3}
+  - name: Rose Tree
+    id: 49
+    idThumb: 
+    index: 49
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 7
+    price: 64
+    price2: 0
+    levelUnlock: 14
+    levelUnlock2: 45
+    quantityBuild: 4
+    nameV: "Hoa h\u1ED3ng"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: 446ed6c7339e47f49a41c11a7843588b, type: 3}
+    prefabs: {fileID: 6451655324699120140, guid: 4490e29c1ac8621449464763435ff462,
+      type: 3}
+  - name: Strawberry Bush Tree
+    id: 50
+    idThumb: 
+    index: 50
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 3
+    price: 50
+    price2: 0
+    levelUnlock: 6
+    levelUnlock2: 28
+    quantityBuild: 4
+    nameV: "C\xE2y d\xE2u t\xE2y"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: f3a6c947c60a44c4c9699758374d2756, type: 3}
+    prefabs: {fileID: 4710566627814133805, guid: 9a23c3569d19fab4cac0d5af1a3b0b52,
+      type: 3}
+  - name: Tulip Tree
+    id: 51
+    idThumb: 
+    index: 51
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 8
+    price: 44
+    price2: 0
+    levelUnlock: 13
+    levelUnlock2: 60
+    quantityBuild: 4
+    nameV: "C\xE2y tulip"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: e70afbbeded59fa429f8bc9583e05ed2, type: 3}
+    prefabs: {fileID: 660635762105356211, guid: c445e4aa088f9634f87c1ad88200e839,
+      type: 3}
+  - name: Blueberry Tree
+    id: 52
+    idThumb: 
+    index: 52
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 9
+    price: 100
+    price2: 0
+    levelUnlock: 22
+    levelUnlock2: 34
+    quantityBuild: 4
+    nameV: "C\xE2y vi\u1EC7t qu\u1EA5t"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: 40935b7d44c810743938b013a7c57dcc, type: 3}
+    prefabs: {fileID: 7765312578957297171, guid: 4b3102f242f2d5944a47f09234e79787,
+      type: 3}
+  - name: Coffee Tree
+    id: 53
+    idThumb: 
+    index: 53
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 10
+    price: 120
+    price2: 0
+    levelUnlock: 21
+    levelUnlock2: 33
+    quantityBuild: 4
+    nameV: "C\xE2y c\xE0 ph\xEA"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: 5754f3626fe72d04b9d9b8b5378bc9c7, type: 3}
+    prefabs: {fileID: 3104505129417902366, guid: 68b43ad6efc44b14aae81339d40f8993,
+      type: 3}
+  - name: Lemon Tree
+    id: 54
+    idThumb: 
+    index: 54
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 15
+    price: 110
+    price2: 0
+    levelUnlock: 20
+    levelUnlock2: 32
+    quantityBuild: 4
+    nameV: "C\xE2y chanh"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: 16d816a7b0c55c24b92692222f6808da, type: 3}
+    prefabs: {fileID: 2073277855075797204, guid: 89edf9832d8a9624890cb6a1cd4a75b6,
+      type: 3}
+  - name: Orange Tree
+    id: 55
+    idThumb: 
+    index: 55
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 20
+    price: 90
+    price2: 0
+    levelUnlock: 35
+    levelUnlock2: 47
+    quantityBuild: 4
+    nameV: "C\xE2y cam"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: ab405fbf07994554b8d9dd6a930935b4, type: 3}
+    prefabs: {fileID: 8136839705700715786, guid: b5812c31a5958204da09d49fec036142,
+      type: 3}
+  - name: Pear Tree
+    id: 56
+    idThumb: 
+    index: 56
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 25
+    price: 140
+    price2: 0
+    levelUnlock: 27
+    levelUnlock2: 39
+    quantityBuild: 4
+    nameV: "C\xE2y l\xEA"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: 725dcbc8f4895f34f924fbce92b2d10b, type: 3}
+    prefabs: {fileID: 6471650646496919112, guid: f69149bf6a514ac4c8ab654d7410f479,
+      type: 3}
+  - name: Rasberry Tree
+    id: 57
+    idThumb: 
+    index: 57
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 30
+    price: 150
+    price2: 0
+    levelUnlock: 25
+    levelUnlock2: 37
+    quantityBuild: 4
+    nameV: "C\xE2y m\xE2m x\xF4i"
+    typeShop: 3
+    spIcon: {fileID: 21300000, guid: 1da8d27ae7fa38c41be7671522d2e174, type: 3}
+    prefabs: {fileID: 8805960368535696747, guid: 2446c99787b58eb42ab08a1646324a9f,
+      type: 3}
+  - name: Bicycle
+    id: 58
+    idThumb: 
+    index: 58
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 2
+    price: 20
+    price2: 20
+    levelUnlock: 2
+    levelUnlock2: 2
+    quantityBuild: 1
+    nameV: "Xe \u0111\u1EA1p"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 4a90347a40e898d4baaf4279311af75f, type: 3}
+    prefabs: {fileID: 6403421938229622005, guid: 63ef55b7a1f0beb4a868ab931e24841b,
+      type: 3}
+  - name: Cream rose
+    id: 59
+    idThumb: 
+    index: 59
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 3
+    price: 40
+    price2: 40
+    levelUnlock: 4
+    levelUnlock2: 4
+    quantityBuild: 1
+    nameV: "Kem hoa h\u1ED3ng"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 4d14ee9a157a9a74996a9ce00402bf31, type: 3}
+    prefabs: {fileID: 2161697600288288548, guid: 10abd546926f44242bc68dbcb4adead8,
+      type: 3}
+  - name: Gazebo
+    id: 60
+    idThumb: 
+    index: 60
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 4
+    price: 60
+    price2: 60
+    levelUnlock: 6
+    levelUnlock2: 6
+    quantityBuild: 1
+    nameV: "Ti\u1EC3u \u0111\xECnh"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 4cb37c727655e4242a461f312a6f001a, type: 3}
+    prefabs: {fileID: 7093501109878697524, guid: e3cf77171a6a8594c9d977703d726551,
+      type: 3}
+  - name: Green gnome
+    id: 61
+    idThumb: 
+    index: 61
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 5
+    price: 80
+    price2: 80
+    levelUnlock: 8
+    levelUnlock2: 8
+    quantityBuild: 1
+    nameV: "T\u01B0\u1EE3ng xanh"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: a90420405d2ab7d4ab8af3bbc228db35, type: 3}
+    prefabs: {fileID: 4156432488635858040, guid: d8f6af0553e075846b1def9c384ddfaf,
+      type: 3}
+  - name: Lamp
+    id: 62
+    idThumb: 
+    index: 62
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 6
+    price: 100
+    price2: 100
+    levelUnlock: 10
+    levelUnlock2: 10
+    quantityBuild: 1
+    nameV: "\u0110\xE8n \u0111\u1EC3 b\xE0n"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 93160892783ab184baa4ebc19b9f09e4, type: 3}
+    prefabs: {fileID: 4380107807712285068, guid: 17f37494cf0cbf543bfaaa8aafa4c168,
+      type: 3}
+  - name: Rocking chair
+    id: 63
+    idThumb: 
+    index: 63
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 7
+    price: 120
+    price2: 120
+    levelUnlock: 12
+    levelUnlock2: 12
+    quantityBuild: 1
+    nameV: "Gh\u1EBF b\u1EADp b\xEAnh"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 316e542bb3899cf4ba369dbf57ed0605, type: 3}
+    prefabs: {fileID: 6280919201373549702, guid: 57b86173789f7d34594e5319b87959d3,
+      type: 3}
+  - name: Rose bush
+    id: 64
+    idThumb: 
+    index: 64
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 8
+    price: 140
+    price2: 140
+    levelUnlock: 14
+    levelUnlock2: 14
+    quantityBuild: 1
+    nameV: "B\u1EE5i hoa h\u1ED3ng"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 8dffd6ef51785994e8b309cef46d7317, type: 3}
+    prefabs: {fileID: 1536490558388433703, guid: 3dad7d240d4ccbd48ad51fadd290ace1,
+      type: 3}
+  - name: Scarecrow
+    id: 65
+    idThumb: 
+    index: 65
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 9
+    price: 160
+    price2: 160
+    levelUnlock: 16
+    levelUnlock2: 16
+    quantityBuild: 1
+    nameV: "B\xF9 nh\xECn"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: df1c06665a4c92746ad3fde2ecbfd2a6, type: 3}
+    prefabs: {fileID: 5533847828119948129, guid: 06b4cdae595664a4990ed123a5605cce,
+      type: 3}
+  - name: Tea party armchair
+    id: 66
+    idThumb: 
+    index: 66
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 10
+    price: 180
+    price2: 180
+    levelUnlock: 18
+    levelUnlock2: 18
+    quantityBuild: 1
+    nameV: "Gh\u1EBF b\xE0nh ti\u1EC7c tr\xE0"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: c5994f8dd52da1844972944f1cd96ebd, type: 3}
+    prefabs: {fileID: 7278319102656324561, guid: 537e67c0806dfa248b619758a0b6a4c8,
+      type: 3}
+  - name: Wooden lantern
+    id: 67
+    idThumb: 
+    index: 67
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 11
+    price: 200
+    price2: 200
+    levelUnlock: 20
+    levelUnlock2: 20
+    quantityBuild: 1
+    nameV: "\u0110\xE8n l\u1ED3ng g\u1ED7"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: a98788080e2bdfe418cf99ea59025142, type: 3}
+    prefabs: {fileID: 3122327299623626878, guid: cff65d47293f5614d9dca66f357dd448,
+      type: 3}
+  - name: Axe
+    id: 68
+    idThumb: 
+    index: 68
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 12
+    price: 220
+    price2: 220
+    levelUnlock: 22
+    levelUnlock2: 22
+    quantityBuild: 1
+    nameV: "C\xE2y r\xECu"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 9c649e05498c7f946970261671986617, type: 3}
+    prefabs: {fileID: 9035718856527607, guid: 6878273bd9922b9449e5b9ab0e219c89, type: 3}
+  - name: Beach umbrella
+    id: 69
+    idThumb: 
+    index: 69
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 13
+    price: 240
+    price2: 240
+    levelUnlock: 24
+    levelUnlock2: 24
+    quantityBuild: 1
+    nameV: "D\xF9 b\xE3i bi\u1EC3n"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 6e5041954239726419bad21866fb1d95, type: 3}
+    prefabs: {fileID: 8140340939216494338, guid: 76117a9769586a5448c3e6b5fa6686ca,
+      type: 3}
+  - name: Bridge
+    id: 70
+    idThumb: 
+    index: 70
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 14
+    price: 260
+    price2: 260
+    levelUnlock: 26
+    levelUnlock2: 26
+    quantityBuild: 1
+    nameV: "C\u1EA7u"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: b2b2ee9a0161c3148b24349d7f3ba26a, type: 3}
+    prefabs: {fileID: 7624387175294916978, guid: 4828a396b2533014983f51aad73ab1c9,
+      type: 3}
+  - name: Flower bed
+    id: 71
+    idThumb: 
+    index: 71
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 15
+    price: 280
+    price2: 280
+    levelUnlock: 28
+    levelUnlock2: 28
+    quantityBuild: 1
+    nameV: "Gi\u01B0\u1EDDng hoa"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 17943051d7984bf4a9ffbaa407ff1e1a, type: 3}
+    prefabs: {fileID: 6483078395157644625, guid: f5e8f7f4c10cb0d439d867704e47fd2d,
+      type: 3}
+  - name: Grano phone
+    id: 72
+    idThumb: 
+    index: 72
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 16
+    price: 300
+    price2: 300
+    levelUnlock: 30
+    levelUnlock2: 30
+    quantityBuild: 1
+    nameV: "m\xE1y nghe nh\u1EA1c"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 1b4df8895ee436048a825689165f23e0, type: 3}
+    prefabs: {fileID: 2965674443620950695, guid: a9a1f84638ea5df408105e90cc9f50ff,
+      type: 3}
+  - name: Green rabbit
+    id: 73
+    idThumb: 
+    index: 73
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 17
+    price: 320
+    price2: 320
+    levelUnlock: 32
+    levelUnlock2: 32
+    quantityBuild: 1
+    nameV: "Th\u1ECF xanh"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 8ef45e5219e593f4b802b0f340ed8f55, type: 3}
+    prefabs: {fileID: 8652689576798326490, guid: 846b61110fa4f5d41a9ace953a5d7147,
+      type: 3}
+  - name: Iron lantern
+    id: 74
+    idThumb: 
+    index: 74
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 18
+    price: 340
+    price2: 340
+    levelUnlock: 34
+    levelUnlock2: 34
+    quantityBuild: 1
+    nameV: "\u0110\xE8n l\u1ED3ng s\u1EAFt"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 0406f5247aba3fe4a9e1110bbbc191a5, type: 3}
+    prefabs: {fileID: 5394696113461671206, guid: e7e95ea75d406d742a01b4ec66d7277b,
+      type: 3}
+  - name: Orange gnome
+    id: 75
+    idThumb: 
+    index: 75
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 19
+    price: 360
+    price2: 360
+    levelUnlock: 36
+    levelUnlock2: 36
+    quantityBuild: 1
+    nameV: "T\u01B0\u1EE3ng cam"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 9d97fb4b57eafed4ab5a99e3b2fb552a, type: 3}
+    prefabs: {fileID: 2809477724320874054, guid: 57fa6297f5d3c3b4390585285dd5682f,
+      type: 3}
+  - name: Orange scarecrow
+    id: 76
+    idThumb: 
+    index: 76
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 20
+    price: 380
+    price2: 380
+    levelUnlock: 38
+    levelUnlock2: 38
+    quantityBuild: 1
+    nameV: "B\xF9 nh\xECn m\xE0u cam"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 5c3fdafad1358014d90fa89c3ae9f3ad, type: 3}
+    prefabs: {fileID: 8447959010425718025, guid: cc8a277fa9e986542acc71158b039775,
+      type: 3}
+  - name: Pink flamingo
+    id: 77
+    idThumb: 
+    index: 77
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 21
+    price: 400
+    price2: 400
+    levelUnlock: 40
+    levelUnlock2: 40
+    quantityBuild: 1
+    nameV: "H\u1ED3ng h\u1EA1c"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: b12bb3ec308a83e449953249f86ac420, type: 3}
+    prefabs: {fileID: 4571473351913358532, guid: d5b7cd3dce585034d81ecb396f03b2f6,
+      type: 3}
+  - name: Red gnome
+    id: 78
+    idThumb: 
+    index: 78
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 22
+    price: 420
+    price2: 420
+    levelUnlock: 42
+    levelUnlock2: 42
+    quantityBuild: 1
+    nameV: "T\u01B0\u1EE3ng \u0111\u1ECF"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: a572ef137e770e743ae1153b278220e1, type: 3}
+    prefabs: {fileID: 5210142110151108700, guid: 42885024a52e02943a81b8fe4dfec7b1,
+      type: 3}
+  - name: Summer house
+    id: 79
+    idThumb: 
+    index: 79
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 23
+    price: 440
+    price2: 440
+    levelUnlock: 44
+    levelUnlock2: 44
+    quantityBuild: 1
+    nameV: "Nh\xE0 m\xF9a h\xE8"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 573d78e324cce014e8c85266350294c3, type: 3}
+    prefabs: {fileID: 5771668423662911729, guid: f9757fa950fdef64e83743440bc2bc8d,
+      type: 3}
+  - name: Tea party table
+    id: 80
+    idThumb: 
+    index: 80
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    exp: 24
+    price: 460
+    price2: 460
+    levelUnlock: 46
+    levelUnlock2: 46
+    quantityBuild: 1
+    nameV: "B\xE0n ti\u1EC7c tr\xE0"
+    typeShop: 4
+    spIcon: {fileID: 21300000, guid: 0dfa5756e0617674b983aaab4234ffb5, type: 3}
+    prefabs: {fileID: 5113106519859413158, guid: bcc4ab002139f8d4bb617084798f0b77,
+      type: 3}
+  tempNull: 
+  data_json: "{\"dataShops\":[{\"Name\":\"Land\",\"NameV\":\"\xD4 \u0111\u1EA5t\",\"TypeShop\":\"Farms\",\"Exp\":2,\"Price\":20,\"Price2\":20,\"Level1\":3,\"Level2\":0,\"QuantityBuild\":6},{\"Name\":\"Henhouse\",\"NameV\":\"Chu\u1ED3ng
+    g\xE0\",\"TypeShop\":\"Farms\",\"Exp\":3,\"Price\":10,\"Price2\":50,\"Level1\":2,\"Level2\":20,\"QuantityBuild\":4},{\"Name\":\"Beehive\",\"NameV\":\"T\u1ED5
+    ong\",\"TypeShop\":\"Farms\",\"Exp\":4,\"Price\":50,\"Price2\":250,\"Level1\":7,\"Level2\":27,\"QuantityBuild\":4},{\"Name\":\"Cowshed\",\"NameV\":\"Chu\u1ED3ng
+    b\xF2\",\"TypeShop\":\"Farms\",\"Exp\":3,\"Price\":40,\"Price2\":200,\"Level1\":6,\"Level2\":26,\"QuantityBuild\":4},{\"Name\":\"Ostrich
+    House\",\"NameV\":\"Chu\u1ED3ng \u0111\xE0 \u0111i\u1EC3u\",\"TypeShop\":\"Farms\",\"Exp\":6,\"Price\":100,\"Price2\":500,\"Level1\":11,\"Level2\":31,\"QuantityBuild\":4},{\"Name\":\"Peacock
+    House\",\"NameV\":\"Chu\u1ED3ng c\xF4ng\",\"TypeShop\":\"Farms\",\"Exp\":4,\"Price\":70,\"Price2\":350,\"Level1\":8,\"Level2\":28,\"QuantityBuild\":4},{\"Name\":\"Pigpen\",\"NameV\":\"Chu\u1ED3ng
+    l\u1EE3n\",\"TypeShop\":\"Farms\",\"Exp\":5,\"Price\":80,\"Price2\":400,\"Level1\":9,\"Level2\":29,\"QuantityBuild\":4},{\"Name\":\"Sheepfold\",\"NameV\":\"Chu\u1ED3ng
+    c\u1EEBu\",\"TypeShop\":\"Farms\",\"Exp\":7,\"Price\":120,\"Price2\":600,\"Level1\":12,\"Level2\":32,\"QuantityBuild\":4},{\"Name\":\"Bee\",\"NameV\":\"Con
+    Ong\",\"TypeShop\":\"Animals\",\"Exp\":4,\"Price\":80,\"Price2\":400,\"Level1\":7,\"Level2\":27,\"QuantityBuild\":6},{\"Name\":\"Chicken\",\"NameV\":\"Con
+    G\xE0\",\"TypeShop\":\"Animals\",\"Exp\":2,\"Price\":10,\"Price2\":20,\"Level1\":2,\"Level2\":20,\"QuantityBuild\":6},{\"Name\":\"Cow\",\"NameV\":\"Con
+    B\xF2\",\"TypeShop\":\"Animals\",\"Exp\":3,\"Price\":30,\"Price2\":300,\"Level1\":6,\"Level2\":26,\"QuantityBuild\":6},{\"Name\":\"Ostrich\",\"NameV\":\"Con
+    \u0110\xE0 \u0111i\u1EC3u\",\"TypeShop\":\"Animals\",\"Exp\":7,\"Price\":640,\"Price2\":1100,\"Level1\":11,\"Level2\":31,\"QuantityBuild\":6},{\"Name\":\"Peacock\",\"NameV\":\"Con
+    C\xF4ng\",\"TypeShop\":\"Animals\",\"Exp\":5,\"Price\":300,\"Price2\":900,\"Level1\":8,\"Level2\":28,\"QuantityBuild\":6},{\"Name\":\"Pig\",\"NameV\":\"Con
+    L\u1EE3n\",\"TypeShop\":\"Animals\",\"Exp\":6,\"Price\":80,\"Price2\":800,\"Level1\":9,\"Level2\":29,\"QuantityBuild\":6},{\"Name\":\"Sheep\",\"NameV\":\"Con
+    C\u1EEBu\",\"TypeShop\":\"Animals\",\"Exp\":8,\"Price\":380,\"Price2\":1000,\"Level1\":12,\"Level2\":32,\"QuantityBuild\":6},{\"Name\":\"Accessories\",\"NameV\":\"M\xE1y
+    ph\u1EE5 ki\u1EC7n\",\"TypeShop\":\"Factories\",\"Exp\":6,\"Price\":90,\"Price2\":180,\"Level1\":8,\"Level2\":21,\"QuantityBuild\":4},{\"Name\":\"Bakery\",\"NameV\":\"C\u1EEDa
+    h\xE0ng b\xE1nh m\xEC\",\"TypeShop\":\"Factories\",\"Exp\":2,\"Price\":10,\"Price2\":240,\"Level1\":1,\"Level2\":14,\"QuantityBuild\":4},{\"Name\":\"Corn
+    Oven\",\"NameV\":\"L\xF2 ng\xF4\",\"TypeShop\":\"Factories\",\"Exp\":5,\"Price\":60,\"Price2\":134,\"Level1\":7,\"Level2\":20,\"QuantityBuild\":4},{\"Name\":\"Dairy\",\"NameV\":\"S\u1EA3n
+    ph\u1EA9m b\u01A1 s\u1EEFa\",\"TypeShop\":\"Factories\",\"Exp\":4,\"Price\":40,\"Price2\":170,\"Level1\":6,\"Level2\":19,\"QuantityBuild\":4},{\"Name\":\"Food
+    Processor\",\"NameV\":\"M\xE1y th\u1EE9c \u0103n v\u1EADt nu\xF4i\",\"TypeShop\":\"Factories\",\"Exp\":3,\"Price\":30,\"Price2\":132,\"Level1\":2,\"Level2\":15,\"QuantityBuild\":4},{\"Name\":\"Pie
+    Bakery\",\"NameV\":\"Ti\u1EC7m b\xE1nh\",\"TypeShop\":\"Factories\",\"Exp\":6,\"Price\":80,\"Price2\":300,\"Level1\":8,\"Level2\":21,\"QuantityBuild\":4},{\"Name\":\"Roaster\",\"NameV\":\"M\xE1y
+    rang xay\",\"TypeShop\":\"Factories\",\"Exp\":8,\"Price\":120,\"Price2\":200,\"Level1\":10,\"Level2\":23,\"QuantityBuild\":4},{\"Name\":\"Sugar
+    Processor\",\"NameV\":\"Nh\xE0 m\xE1y \u0111\u01B0\u1EDDng\",\"TypeShop\":\"Factories\",\"Exp\":5,\"Price\":70,\"Price2\":280,\"Level1\":7,\"Level2\":20,\"QuantityBuild\":4},{\"Name\":\"Sushishop\",\"NameV\":\"C\u1EEDa
+    h\xE0ng sushi\",\"TypeShop\":\"Factories\",\"Exp\":7,\"Price\":100,\"Price2\":160,\"Level1\":9,\"Level2\":22,\"QuantityBuild\":4},{\"Name\":\"Blender\",\"NameV\":\"M\xE1y
+    xay\",\"TypeShop\":\"Factories\",\"Exp\":700,\"Price\":70000,\"Price2\":90000,\"Level1\":45,\"Level2\":50,\"QuantityBuild\":4},{\"Name\":\"Cake
+    Bakery\",\"NameV\":\"Ti\u1EC7m b\xE1nh kem\",\"TypeShop\":\"Factories\",\"Exp\":48,\"Price\":4800,\"Price2\":7200,\"Level1\":18,\"Level2\":35,\"QuantityBuild\":4},{\"Name\":\"Candy
+    Factory\",\"NameV\":\"Nh\xE0 m\xE1y k\u1EB9o\",\"TypeShop\":\"Factories\",\"Exp\":250,\"Price\":25000,\"Price2\":50000,\"Level1\":33,\"Level2\":44,\"QuantityBuild\":4},{\"Name\":\"Coffe
+    Machine\",\"NameV\":\"M\xE1y pha c\xE0 ph\xEA\",\"TypeShop\":\"Factories\",\"Exp\":64,\"Price\":6400,\"Price2\":10200,\"Level1\":21,\"Level2\":38,\"QuantityBuild\":4},{\"Name\":\"Cream
+    Freezer\",\"NameV\":\"Kem \u0111\xF4ng l\u1EA1nh\",\"TypeShop\":\"Factories\",\"Exp\":80,\"Price\":8000,\"Price2\":12400,\"Level1\":46,\"Level2\":55,\"QuantityBuild\":4},{\"Name\":\"Flower
+    Factory\",\"NameV\":\"Nh\xE0 m\xE1y hoa\",\"TypeShop\":\"Factories\",\"Exp\":40,\"Price\":4000,\"Price2\":7000,\"Level1\":15,\"Level2\":32,\"QuantityBuild\":4},{\"Name\":\"Goldsmith\",\"NameV\":\"Th\u1EE3
+    kim ho\xE0n\",\"TypeShop\":\"Factories\",\"Exp\":5,\"Price\":560,\"Price2\":1000,\"Level1\":11,\"Level2\":22,\"QuantityBuild\":4},{\"Name\":\"Hats\",\"NameV\":\"M\xE1y
+    s\u1EA3n xu\u1EA5t m\u0169\",\"TypeShop\":\"Factories\",\"Exp\":10,\"Price\":500,\"Price2\":900,\"Level1\":10,\"Level2\":20,\"QuantityBuild\":4},{\"Name\":\"Jam
+    Factory\",\"NameV\":\"Nh\xE0 m\xE1y m\u1EE9t\",\"TypeShop\":\"Factories\",\"Exp\":300,\"Price\":30000,\"Price2\":42000,\"Level1\":35,\"Level2\":44,\"QuantityBuild\":4},{\"Name\":\"Juicer\",\"NameV\":\"M\xE1y
+    \xE9p tr\xE1i c\xE2y\",\"TypeShop\":\"Factories\",\"Exp\":200,\"Price\":20000,\"Price2\":44000,\"Level1\":29,\"Level2\":37,\"QuantityBuild\":4},{\"Name\":\"Knitting
+    Table\",\"NameV\":\"B\xE0n \u0111an\",\"TypeShop\":\"Factories\",\"Exp\":36,\"Price\":3600,\"Price2\":4800,\"Level1\":14,\"Level2\":21,\"QuantityBuild\":4},{\"Name\":\"Mexican
+    Food\",\"NameV\":\"Th\u1EE9c \u0103n Mexico\",\"TypeShop\":\"Factories\",\"Exp\":600,\"Price\":60000,\"Price2\":90000,\"Level1\":40,\"Level2\":58,\"QuantityBuild\":4},{\"Name\":\"Paint
+    Factory\",\"NameV\":\"Nh\xE0 m\xE1y s\u01A1n\",\"TypeShop\":\"Factories\",\"Exp\":15,\"Price\":1080,\"Price2\":2400,\"Level1\":13,\"Level2\":20,\"QuantityBuild\":4},{\"Name\":\"Paper
+    Factory\",\"NameV\":\"M\xE1y s\u1EA3n xu\u1EA5t gi\u1EA5y\",\"TypeShop\":\"Factories\",\"Exp\":20,\"Price\":2000,\"Price2\":3500,\"Level1\":14,\"Level2\":27,\"QuantityBuild\":4},{\"Name\":\"Pizza
+    Oven\",\"NameV\":\"L\xF2 n\u01B0\u1EDBng pizza\",\"TypeShop\":\"Factories\",\"Exp\":97,\"Price\":19500,\"Price2\":25000,\"Level1\":24,\"Level2\":39,\"QuantityBuild\":4},{\"Name\":\"Sewing
+    Table\",\"NameV\":\"B\xE0n may\",\"TypeShop\":\"Factories\",\"Exp\":30,\"Price\":3000,\"Price2\":4000,\"Level1\":12,\"Level2\":28,\"QuantityBuild\":4},{\"Name\":\"Smelter\",\"NameV\":\"L\xF2
+    luy\u1EC7n\",\"TypeShop\":\"Factories\",\"Exp\":12,\"Price\":130,\"Price2\":250,\"Level1\":10,\"Level2\":20,\"QuantityBuild\":4},{\"Name\":\"Wok\",\"NameV\":\"Nh\xE0
+    m\xE1y ch\u1EA3o\",\"TypeShop\":\"Factories\",\"Exp\":800,\"Price\":80000,\"Price2\":120000,\"Level1\":50,\"Level2\":60,\"QuantityBuild\":4},{\"Name\":\"Apple
+    Tree\",\"NameV\":\"C\xE2y t\xE1o\",\"TypeShop\":\"Plants\",\"Exp\":5,\"Price\":100,\"Price2\":0,\"Level1\":6,\"Level2\":25,\"QuantityBuild\":4},{\"Name\":\"Cacao
+    Tree\",\"NameV\":\"C\xE2y CaCao\",\"TypeShop\":\"Plants\",\"Exp\":3,\"Price\":100,\"Price2\":0,\"Level1\":18,\"Level2\":30,\"QuantityBuild\":4},{\"Name\":\"Cherry
+    Tree\",\"NameV\":\"C\xE2y anh \u0111\xE0o\",\"TypeShop\":\"Plants\",\"Exp\":4,\"Price\":100,\"Price2\":0,\"Level1\":11,\"Level2\":35,\"QuantityBuild\":4},{\"Name\":\"Golden
+    Daisy Tree\",\"NameV\":\"Hoa c\xFAc v\xE0ng\",\"TypeShop\":\"Plants\",\"Exp\":6,\"Price\":70,\"Price2\":0,\"Level1\":15,\"Level2\":29,\"QuantityBuild\":4},{\"Name\":\"Iris
+    Tree\",\"NameV\":\"C\xE2y Iris\",\"TypeShop\":\"Plants\",\"Exp\":7,\"Price\":86,\"Price2\":0,\"Level1\":16,\"Level2\":30,\"QuantityBuild\":4},{\"Name\":\"Lilac
+    Tree\",\"NameV\":\"C\xE2y \u0111inh h\u01B0\u01A1ng\",\"TypeShop\":\"Plants\",\"Exp\":8,\"Price\":40,\"Price2\":0,\"Level1\":13,\"Level2\":33,\"QuantityBuild\":4},{\"Name\":\"Lily
+    Tree\",\"NameV\":\"Hoa lily\",\"TypeShop\":\"Plants\",\"Exp\":7,\"Price\":74,\"Price2\":0,\"Level1\":15,\"Level2\":40,\"QuantityBuild\":4},{\"Name\":\"Rose
+    Tree\",\"NameV\":\"Hoa h\u1ED3ng\",\"TypeShop\":\"Plants\",\"Exp\":7,\"Price\":64,\"Price2\":0,\"Level1\":14,\"Level2\":45,\"QuantityBuild\":4},{\"Name\":\"Strawberry
+    Bush Tree\",\"NameV\":\"C\xE2y d\xE2u t\xE2y\",\"TypeShop\":\"Plants\",\"Exp\":3,\"Price\":50,\"Price2\":0,\"Level1\":6,\"Level2\":28,\"QuantityBuild\":4},{\"Name\":\"Tulip
+    Tree\",\"NameV\":\"C\xE2y tulip\",\"TypeShop\":\"Plants\",\"Exp\":8,\"Price\":44,\"Price2\":0,\"Level1\":13,\"Level2\":60,\"QuantityBuild\":4},{\"Name\":\"Blueberry
+    Tree\",\"NameV\":\"C\xE2y vi\u1EC7t qu\u1EA5t\",\"TypeShop\":\"Plants\",\"Exp\":9,\"Price\":100,\"Price2\":0,\"Level1\":22,\"Level2\":34,\"QuantityBuild\":4},{\"Name\":\"Coffee
+    Tree\",\"NameV\":\"C\xE2y c\xE0 ph\xEA\",\"TypeShop\":\"Plants\",\"Exp\":10,\"Price\":120,\"Price2\":0,\"Level1\":21,\"Level2\":33,\"QuantityBuild\":4},{\"Name\":\"Lemon
+    Tree\",\"NameV\":\"C\xE2y chanh\",\"TypeShop\":\"Plants\",\"Exp\":15,\"Price\":110,\"Price2\":0,\"Level1\":20,\"Level2\":32,\"QuantityBuild\":4},{\"Name\":\"Orange
+    Tree\",\"NameV\":\"C\xE2y cam\",\"TypeShop\":\"Plants\",\"Exp\":20,\"Price\":90,\"Price2\":0,\"Level1\":35,\"Level2\":47,\"QuantityBuild\":4},{\"Name\":\"Pear
+    Tree\",\"NameV\":\"C\xE2y l\xEA\",\"TypeShop\":\"Plants\",\"Exp\":25,\"Price\":140,\"Price2\":0,\"Level1\":27,\"Level2\":39,\"QuantityBuild\":4},{\"Name\":\"Rasberry
+    Tree\",\"NameV\":\"C\xE2y m\xE2m x\xF4i\",\"TypeShop\":\"Plants\",\"Exp\":30,\"Price\":150,\"Price2\":0,\"Level1\":25,\"Level2\":37,\"QuantityBuild\":4},{\"Name\":\"Bicycle\",\"NameV\":\"Xe
+    \u0111\u1EA1p\",\"TypeShop\":\"Decorations\",\"Exp\":2,\"Price\":20,\"Price2\":0,\"Level1\":2,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Cream
+    rose\",\"NameV\":\"Kem hoa h\u1ED3ng\",\"TypeShop\":\"Decorations\",\"Exp\":3,\"Price\":40,\"Price2\":0,\"Level1\":4,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Gazebo\",\"NameV\":\"Ti\u1EC3u
+    \u0111\xECnh\",\"TypeShop\":\"Decorations\",\"Exp\":4,\"Price\":60,\"Price2\":0,\"Level1\":6,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Green
+    gnome\",\"NameV\":\"T\u01B0\u1EE3ng xanh\",\"TypeShop\":\"Decorations\",\"Exp\":5,\"Price\":80,\"Price2\":0,\"Level1\":8,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Lamp\",\"NameV\":\"\u0110\xE8n
+    \u0111\u1EC3 b\xE0n\",\"TypeShop\":\"Decorations\",\"Exp\":6,\"Price\":100,\"Price2\":0,\"Level1\":10,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Rocking
+    chair\",\"NameV\":\"Gh\u1EBF b\u1EADp b\xEAnh\",\"TypeShop\":\"Decorations\",\"Exp\":7,\"Price\":120,\"Price2\":0,\"Level1\":12,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Rose
+    bush\",\"NameV\":\"B\u1EE5i hoa h\u1ED3ng\",\"TypeShop\":\"Decorations\",\"Exp\":8,\"Price\":140,\"Price2\":0,\"Level1\":14,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Scarecrow\",\"NameV\":\"B\xF9
+    nh\xECn\",\"TypeShop\":\"Decorations\",\"Exp\":9,\"Price\":160,\"Price2\":0,\"Level1\":16,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Tea
+    party armchair\",\"NameV\":\"Gh\u1EBF b\xE0nh ti\u1EC7c tr\xE0\",\"TypeShop\":\"Decorations\",\"Exp\":10,\"Price\":180,\"Price2\":0,\"Level1\":18,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Wooden
+    lantern\",\"NameV\":\"\u0110\xE8n l\u1ED3ng g\u1ED7\",\"TypeShop\":\"Decorations\",\"Exp\":11,\"Price\":200,\"Price2\":0,\"Level1\":20,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Axe\",\"NameV\":\"C\xE2y
+    r\xECu\",\"TypeShop\":\"Decorations\",\"Exp\":12,\"Price\":220,\"Price2\":0,\"Level1\":22,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Beach
+    umbrella\",\"NameV\":\"D\xF9 b\xE3i bi\u1EC3n\",\"TypeShop\":\"Decorations\",\"Exp\":13,\"Price\":240,\"Price2\":0,\"Level1\":24,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Bridge\",\"NameV\":\"C\u1EA7u\",\"TypeShop\":\"Decorations\",\"Exp\":14,\"Price\":260,\"Price2\":0,\"Level1\":26,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Flower
+    bed\",\"NameV\":\"Gi\u01B0\u1EDDng hoa\",\"TypeShop\":\"Decorations\",\"Exp\":15,\"Price\":280,\"Price2\":0,\"Level1\":28,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Grano
+    phone\",\"NameV\":\"m\xE1y nghe nh\u1EA1c\",\"TypeShop\":\"Decorations\",\"Exp\":16,\"Price\":300,\"Price2\":0,\"Level1\":30,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Green
+    rabbit\",\"NameV\":\"Th\u1ECF xanh\",\"TypeShop\":\"Decorations\",\"Exp\":17,\"Price\":320,\"Price2\":0,\"Level1\":32,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Iron
+    lantern\",\"NameV\":\"\u0110\xE8n l\u1ED3ng s\u1EAFt\",\"TypeShop\":\"Decorations\",\"Exp\":18,\"Price\":340,\"Price2\":0,\"Level1\":34,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Orange
+    gnome\",\"NameV\":\"T\u01B0\u1EE3ng cam\",\"TypeShop\":\"Decorations\",\"Exp\":19,\"Price\":360,\"Price2\":0,\"Level1\":36,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Orange
+    scarecrow\",\"NameV\":\"B\xF9 nh\xECn m\xE0u cam\",\"TypeShop\":\"Decorations\",\"Exp\":20,\"Price\":380,\"Price2\":0,\"Level1\":38,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Pink
+    flamingo\",\"NameV\":\"H\u1ED3ng h\u1EA1c\",\"TypeShop\":\"Decorations\",\"Exp\":21,\"Price\":400,\"Price2\":0,\"Level1\":40,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Red
+    gnome\",\"NameV\":\"T\u01B0\u1EE3ng \u0111\u1ECF\",\"TypeShop\":\"Decorations\",\"Exp\":22,\"Price\":420,\"Price2\":0,\"Level1\":42,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Summer
+    house\",\"NameV\":\"Nh\xE0 m\xF9a h\xE8\",\"TypeShop\":\"Decorations\",\"Exp\":23,\"Price\":440,\"Price2\":0,\"Level1\":44,\"Level2\":0,\"QuantityBuild\":1},{\"Name\":\"Tea
+    party table\",\"NameV\":\"B\xE0n ti\u1EC7c tr\xE0\",\"TypeShop\":\"Decorations\",\"Exp\":24,\"Price\":460,\"Price2\":0,\"Level1\":46,\"Level2\":0,\"QuantityBuild\":1}]}"
+  dataJson:
+  - Name: Land
+    NameV: "\xD4 \u0111\u1EA5t"
+    TypeShop: Farms
+    Exp: 2
+    Price: 20
+    Price2: 20
+    Level1: 3
+    Level2: 0
+    QuantityBuild: 6
+  - Name: Henhouse
+    NameV: "Chu\u1ED3ng g\xE0"
+    TypeShop: Farms
+    Exp: 3
+    Price: 10
+    Price2: 50
+    Level1: 2
+    Level2: 20
+    QuantityBuild: 4
+  - Name: Beehive
+    NameV: "T\u1ED5 ong"
+    TypeShop: Farms
+    Exp: 4
+    Price: 50
+    Price2: 250
+    Level1: 7
+    Level2: 27
+    QuantityBuild: 4
+  - Name: Cowshed
+    NameV: "Chu\u1ED3ng b\xF2"
+    TypeShop: Farms
+    Exp: 3
+    Price: 40
+    Price2: 200
+    Level1: 6
+    Level2: 26
+    QuantityBuild: 4
+  - Name: Ostrich House
+    NameV: "Chu\u1ED3ng \u0111\xE0 \u0111i\u1EC3u"
+    TypeShop: Farms
+    Exp: 6
+    Price: 100
+    Price2: 500
+    Level1: 11
+    Level2: 31
+    QuantityBuild: 4
+  - Name: Peacock House
+    NameV: "Chu\u1ED3ng c\xF4ng"
+    TypeShop: Farms
+    Exp: 4
+    Price: 70
+    Price2: 350
+    Level1: 8
+    Level2: 28
+    QuantityBuild: 4
+  - Name: Pigpen
+    NameV: "Chu\u1ED3ng l\u1EE3n"
+    TypeShop: Farms
+    Exp: 5
+    Price: 80
+    Price2: 400
+    Level1: 9
+    Level2: 29
+    QuantityBuild: 4
+  - Name: Sheepfold
+    NameV: "Chu\u1ED3ng c\u1EEBu"
+    TypeShop: Farms
+    Exp: 7
+    Price: 120
+    Price2: 600
+    Level1: 12
+    Level2: 32
+    QuantityBuild: 4
+  - Name: Bee
+    NameV: Con Ong
+    TypeShop: Animals
+    Exp: 4
+    Price: 80
+    Price2: 400
+    Level1: 7
+    Level2: 27
+    QuantityBuild: 6
+  - Name: Chicken
+    NameV: "Con G\xE0"
+    TypeShop: Animals
+    Exp: 2
+    Price: 10
+    Price2: 20
+    Level1: 2
+    Level2: 20
+    QuantityBuild: 6
+  - Name: Cow
+    NameV: "Con B\xF2"
+    TypeShop: Animals
+    Exp: 3
+    Price: 30
+    Price2: 300
+    Level1: 6
+    Level2: 26
+    QuantityBuild: 6
+  - Name: Ostrich
+    NameV: "Con \u0110\xE0 \u0111i\u1EC3u"
+    TypeShop: Animals
+    Exp: 7
+    Price: 640
+    Price2: 1100
+    Level1: 11
+    Level2: 31
+    QuantityBuild: 6
+  - Name: Peacock
+    NameV: "Con C\xF4ng"
+    TypeShop: Animals
+    Exp: 5
+    Price: 300
+    Price2: 900
+    Level1: 8
+    Level2: 28
+    QuantityBuild: 6
+  - Name: Pig
+    NameV: "Con L\u1EE3n"
+    TypeShop: Animals
+    Exp: 6
+    Price: 80
+    Price2: 800
+    Level1: 9
+    Level2: 29
+    QuantityBuild: 6
+  - Name: Sheep
+    NameV: "Con C\u1EEBu"
+    TypeShop: Animals
+    Exp: 8
+    Price: 380
+    Price2: 1000
+    Level1: 12
+    Level2: 32
+    QuantityBuild: 6
+  - Name: Accessories
+    NameV: "M\xE1y ph\u1EE5 ki\u1EC7n"
+    TypeShop: Factories
+    Exp: 6
+    Price: 90
+    Price2: 180
+    Level1: 8
+    Level2: 21
+    QuantityBuild: 4
+  - Name: Bakery
+    NameV: "C\u1EEDa h\xE0ng b\xE1nh m\xEC"
+    TypeShop: Factories
+    Exp: 2
+    Price: 10
+    Price2: 240
+    Level1: 1
+    Level2: 14
+    QuantityBuild: 4
+  - Name: Corn Oven
+    NameV: "L\xF2 ng\xF4"
+    TypeShop: Factories
+    Exp: 5
+    Price: 60
+    Price2: 134
+    Level1: 7
+    Level2: 20
+    QuantityBuild: 4
+  - Name: Dairy
+    NameV: "S\u1EA3n ph\u1EA9m b\u01A1 s\u1EEFa"
+    TypeShop: Factories
+    Exp: 4
+    Price: 40
+    Price2: 170
+    Level1: 6
+    Level2: 19
+    QuantityBuild: 4
+  - Name: Food Processor
+    NameV: "M\xE1y th\u1EE9c \u0103n v\u1EADt nu\xF4i"
+    TypeShop: Factories
+    Exp: 3
+    Price: 30
+    Price2: 132
+    Level1: 2
+    Level2: 15
+    QuantityBuild: 4
+  - Name: Pie Bakery
+    NameV: "Ti\u1EC7m b\xE1nh"
+    TypeShop: Factories
+    Exp: 6
+    Price: 80
+    Price2: 300
+    Level1: 8
+    Level2: 21
+    QuantityBuild: 4
+  - Name: Roaster
+    NameV: "M\xE1y rang xay"
+    TypeShop: Factories
+    Exp: 8
+    Price: 120
+    Price2: 200
+    Level1: 10
+    Level2: 23
+    QuantityBuild: 4
+  - Name: Sugar Processor
+    NameV: "Nh\xE0 m\xE1y \u0111\u01B0\u1EDDng"
+    TypeShop: Factories
+    Exp: 5
+    Price: 70
+    Price2: 280
+    Level1: 7
+    Level2: 20
+    QuantityBuild: 4
+  - Name: Sushishop
+    NameV: "C\u1EEDa h\xE0ng sushi"
+    TypeShop: Factories
+    Exp: 7
+    Price: 100
+    Price2: 160
+    Level1: 9
+    Level2: 22
+    QuantityBuild: 4
+  - Name: Blender
+    NameV: "M\xE1y xay"
+    TypeShop: Factories
+    Exp: 700
+    Price: 70000
+    Price2: 90000
+    Level1: 45
+    Level2: 50
+    QuantityBuild: 4
+  - Name: Cake Bakery
+    NameV: "Ti\u1EC7m b\xE1nh kem"
+    TypeShop: Factories
+    Exp: 48
+    Price: 4800
+    Price2: 7200
+    Level1: 18
+    Level2: 35
+    QuantityBuild: 4
+  - Name: Candy Factory
+    NameV: "Nh\xE0 m\xE1y k\u1EB9o"
+    TypeShop: Factories
+    Exp: 250
+    Price: 25000
+    Price2: 50000
+    Level1: 33
+    Level2: 44
+    QuantityBuild: 4
+  - Name: Coffe Machine
+    NameV: "M\xE1y pha c\xE0 ph\xEA"
+    TypeShop: Factories
+    Exp: 64
+    Price: 6400
+    Price2: 10200
+    Level1: 21
+    Level2: 38
+    QuantityBuild: 4
+  - Name: Cream Freezer
+    NameV: "Kem \u0111\xF4ng l\u1EA1nh"
+    TypeShop: Factories
+    Exp: 80
+    Price: 8000
+    Price2: 12400
+    Level1: 46
+    Level2: 55
+    QuantityBuild: 4
+  - Name: Flower Factory
+    NameV: "Nh\xE0 m\xE1y hoa"
+    TypeShop: Factories
+    Exp: 40
+    Price: 4000
+    Price2: 7000
+    Level1: 15
+    Level2: 32
+    QuantityBuild: 4
+  - Name: Goldsmith
+    NameV: "Th\u1EE3 kim ho\xE0n"
+    TypeShop: Factories
+    Exp: 5
+    Price: 560
+    Price2: 1000
+    Level1: 11
+    Level2: 22
+    QuantityBuild: 4
+  - Name: Hats
+    NameV: "M\xE1y s\u1EA3n xu\u1EA5t m\u0169"
+    TypeShop: Factories
+    Exp: 10
+    Price: 500
+    Price2: 900
+    Level1: 10
+    Level2: 20
+    QuantityBuild: 4
+  - Name: Jam Factory
+    NameV: "Nh\xE0 m\xE1y m\u1EE9t"
+    TypeShop: Factories
+    Exp: 300
+    Price: 30000
+    Price2: 42000
+    Level1: 35
+    Level2: 44
+    QuantityBuild: 4
+  - Name: Juicer
+    NameV: "M\xE1y \xE9p tr\xE1i c\xE2y"
+    TypeShop: Factories
+    Exp: 200
+    Price: 20000
+    Price2: 44000
+    Level1: 29
+    Level2: 37
+    QuantityBuild: 4
+  - Name: Knitting Table
+    NameV: "B\xE0n \u0111an"
+    TypeShop: Factories
+    Exp: 36
+    Price: 3600
+    Price2: 4800
+    Level1: 14
+    Level2: 21
+    QuantityBuild: 4
+  - Name: Mexican Food
+    NameV: "Th\u1EE9c \u0103n Mexico"
+    TypeShop: Factories
+    Exp: 600
+    Price: 60000
+    Price2: 90000
+    Level1: 40
+    Level2: 58
+    QuantityBuild: 4
+  - Name: Paint Factory
+    NameV: "Nh\xE0 m\xE1y s\u01A1n"
+    TypeShop: Factories
+    Exp: 15
+    Price: 1080
+    Price2: 2400
+    Level1: 13
+    Level2: 20
+    QuantityBuild: 4
+  - Name: Paper Factory
+    NameV: "M\xE1y s\u1EA3n xu\u1EA5t gi\u1EA5y"
+    TypeShop: Factories
+    Exp: 20
+    Price: 2000
+    Price2: 3500
+    Level1: 14
+    Level2: 27
+    QuantityBuild: 4
+  - Name: Pizza Oven
+    NameV: "L\xF2 n\u01B0\u1EDBng pizza"
+    TypeShop: Factories
+    Exp: 97
+    Price: 19500
+    Price2: 25000
+    Level1: 24
+    Level2: 39
+    QuantityBuild: 4
+  - Name: Sewing Table
+    NameV: "B\xE0n may"
+    TypeShop: Factories
+    Exp: 30
+    Price: 3000
+    Price2: 4000
+    Level1: 12
+    Level2: 28
+    QuantityBuild: 4
+  - Name: Smelter
+    NameV: "L\xF2 luy\u1EC7n"
+    TypeShop: Factories
+    Exp: 12
+    Price: 130
+    Price2: 250
+    Level1: 10
+    Level2: 20
+    QuantityBuild: 4
+  - Name: Wok
+    NameV: "Nh\xE0 m\xE1y ch\u1EA3o"
+    TypeShop: Factories
+    Exp: 800
+    Price: 80000
+    Price2: 120000
+    Level1: 50
+    Level2: 60
+    QuantityBuild: 4
+  - Name: Apple Tree
+    NameV: "C\xE2y t\xE1o"
+    TypeShop: Plants
+    Exp: 5
+    Price: 100
+    Price2: 0
+    Level1: 6
+    Level2: 25
+    QuantityBuild: 4
+  - Name: Cacao Tree
+    NameV: "C\xE2y CaCao"
+    TypeShop: Plants
+    Exp: 3
+    Price: 100
+    Price2: 0
+    Level1: 18
+    Level2: 30
+    QuantityBuild: 4
+  - Name: Cherry Tree
+    NameV: "C\xE2y anh \u0111\xE0o"
+    TypeShop: Plants
+    Exp: 4
+    Price: 100
+    Price2: 0
+    Level1: 11
+    Level2: 35
+    QuantityBuild: 4
+  - Name: Golden Daisy Tree
+    NameV: "Hoa c\xFAc v\xE0ng"
+    TypeShop: Plants
+    Exp: 6
+    Price: 70
+    Price2: 0
+    Level1: 15
+    Level2: 29
+    QuantityBuild: 4
+  - Name: Iris Tree
+    NameV: "C\xE2y Iris"
+    TypeShop: Plants
+    Exp: 7
+    Price: 86
+    Price2: 0
+    Level1: 16
+    Level2: 30
+    QuantityBuild: 4
+  - Name: Lilac Tree
+    NameV: "C\xE2y \u0111inh h\u01B0\u01A1ng"
+    TypeShop: Plants
+    Exp: 8
+    Price: 40
+    Price2: 0
+    Level1: 13
+    Level2: 33
+    QuantityBuild: 4
+  - Name: Lily Tree
+    NameV: Hoa lily
+    TypeShop: Plants
+    Exp: 7
+    Price: 74
+    Price2: 0
+    Level1: 15
+    Level2: 40
+    QuantityBuild: 4
+  - Name: Rose Tree
+    NameV: "Hoa h\u1ED3ng"
+    TypeShop: Plants
+    Exp: 7
+    Price: 64
+    Price2: 0
+    Level1: 14
+    Level2: 45
+    QuantityBuild: 4
+  - Name: Strawberry Bush Tree
+    NameV: "C\xE2y d\xE2u t\xE2y"
+    TypeShop: Plants
+    Exp: 3
+    Price: 50
+    Price2: 0
+    Level1: 6
+    Level2: 28
+    QuantityBuild: 4
+  - Name: Tulip Tree
+    NameV: "C\xE2y tulip"
+    TypeShop: Plants
+    Exp: 8
+    Price: 44
+    Price2: 0
+    Level1: 13
+    Level2: 60
+    QuantityBuild: 4
+  - Name: Blueberry Tree
+    NameV: "C\xE2y vi\u1EC7t qu\u1EA5t"
+    TypeShop: Plants
+    Exp: 9
+    Price: 100
+    Price2: 0
+    Level1: 22
+    Level2: 34
+    QuantityBuild: 4
+  - Name: Coffee Tree
+    NameV: "C\xE2y c\xE0 ph\xEA"
+    TypeShop: Plants
+    Exp: 10
+    Price: 120
+    Price2: 0
+    Level1: 21
+    Level2: 33
+    QuantityBuild: 4
+  - Name: Lemon Tree
+    NameV: "C\xE2y chanh"
+    TypeShop: Plants
+    Exp: 15
+    Price: 110
+    Price2: 0
+    Level1: 20
+    Level2: 32
+    QuantityBuild: 4
+  - Name: Orange Tree
+    NameV: "C\xE2y cam"
+    TypeShop: Plants
+    Exp: 20
+    Price: 90
+    Price2: 0
+    Level1: 35
+    Level2: 47
+    QuantityBuild: 4
+  - Name: Pear Tree
+    NameV: "C\xE2y l\xEA"
+    TypeShop: Plants
+    Exp: 25
+    Price: 140
+    Price2: 0
+    Level1: 27
+    Level2: 39
+    QuantityBuild: 4
+  - Name: Rasberry Tree
+    NameV: "C\xE2y m\xE2m x\xF4i"
+    TypeShop: Plants
+    Exp: 30
+    Price: 150
+    Price2: 0
+    Level1: 25
+    Level2: 37
+    QuantityBuild: 4
+  - Name: Bicycle
+    NameV: "Xe \u0111\u1EA1p"
+    TypeShop: Decorations
+    Exp: 2
+    Price: 20
+    Price2: 0
+    Level1: 2
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Cream rose
+    NameV: "Kem hoa h\u1ED3ng"
+    TypeShop: Decorations
+    Exp: 3
+    Price: 40
+    Price2: 0
+    Level1: 4
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Gazebo
+    NameV: "Ti\u1EC3u \u0111\xECnh"
+    TypeShop: Decorations
+    Exp: 4
+    Price: 60
+    Price2: 0
+    Level1: 6
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Green gnome
+    NameV: "T\u01B0\u1EE3ng xanh"
+    TypeShop: Decorations
+    Exp: 5
+    Price: 80
+    Price2: 0
+    Level1: 8
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Lamp
+    NameV: "\u0110\xE8n \u0111\u1EC3 b\xE0n"
+    TypeShop: Decorations
+    Exp: 6
+    Price: 100
+    Price2: 0
+    Level1: 10
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Rocking chair
+    NameV: "Gh\u1EBF b\u1EADp b\xEAnh"
+    TypeShop: Decorations
+    Exp: 7
+    Price: 120
+    Price2: 0
+    Level1: 12
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Rose bush
+    NameV: "B\u1EE5i hoa h\u1ED3ng"
+    TypeShop: Decorations
+    Exp: 8
+    Price: 140
+    Price2: 0
+    Level1: 14
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Scarecrow
+    NameV: "B\xF9 nh\xECn"
+    TypeShop: Decorations
+    Exp: 9
+    Price: 160
+    Price2: 0
+    Level1: 16
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Tea party armchair
+    NameV: "Gh\u1EBF b\xE0nh ti\u1EC7c tr\xE0"
+    TypeShop: Decorations
+    Exp: 10
+    Price: 180
+    Price2: 0
+    Level1: 18
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Wooden lantern
+    NameV: "\u0110\xE8n l\u1ED3ng g\u1ED7"
+    TypeShop: Decorations
+    Exp: 11
+    Price: 200
+    Price2: 0
+    Level1: 20
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Axe
+    NameV: "C\xE2y r\xECu"
+    TypeShop: Decorations
+    Exp: 12
+    Price: 220
+    Price2: 0
+    Level1: 22
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Beach umbrella
+    NameV: "D\xF9 b\xE3i bi\u1EC3n"
+    TypeShop: Decorations
+    Exp: 13
+    Price: 240
+    Price2: 0
+    Level1: 24
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Bridge
+    NameV: "C\u1EA7u"
+    TypeShop: Decorations
+    Exp: 14
+    Price: 260
+    Price2: 0
+    Level1: 26
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Flower bed
+    NameV: "Gi\u01B0\u1EDDng hoa"
+    TypeShop: Decorations
+    Exp: 15
+    Price: 280
+    Price2: 0
+    Level1: 28
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Grano phone
+    NameV: "m\xE1y nghe nh\u1EA1c"
+    TypeShop: Decorations
+    Exp: 16
+    Price: 300
+    Price2: 0
+    Level1: 30
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Green rabbit
+    NameV: "Th\u1ECF xanh"
+    TypeShop: Decorations
+    Exp: 17
+    Price: 320
+    Price2: 0
+    Level1: 32
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Iron lantern
+    NameV: "\u0110\xE8n l\u1ED3ng s\u1EAFt"
+    TypeShop: Decorations
+    Exp: 18
+    Price: 340
+    Price2: 0
+    Level1: 34
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Orange gnome
+    NameV: "T\u01B0\u1EE3ng cam"
+    TypeShop: Decorations
+    Exp: 19
+    Price: 360
+    Price2: 0
+    Level1: 36
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Orange scarecrow
+    NameV: "B\xF9 nh\xECn m\xE0u cam"
+    TypeShop: Decorations
+    Exp: 20
+    Price: 380
+    Price2: 0
+    Level1: 38
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Pink flamingo
+    NameV: "H\u1ED3ng h\u1EA1c"
+    TypeShop: Decorations
+    Exp: 21
+    Price: 400
+    Price2: 0
+    Level1: 40
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Red gnome
+    NameV: "T\u01B0\u1EE3ng \u0111\u1ECF"
+    TypeShop: Decorations
+    Exp: 22
+    Price: 420
+    Price2: 0
+    Level1: 42
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Summer house
+    NameV: "Nh\xE0 m\xF9a h\xE8"
+    TypeShop: Decorations
+    Exp: 23
+    Price: 440
+    Price2: 0
+    Level1: 44
+    Level2: 0
+    QuantityBuild: 1
+  - Name: Tea party table
+    NameV: "B\xE0n ti\u1EC7c tr\xE0"
+    TypeShop: Decorations
+    Exp: 24
+    Price: 460
+    Price2: 0
+    Level1: 46
+    Level2: 0
+    QuantityBuild: 1
+  spIcon:
+  - {fileID: 21300000, guid: 55e62f7e17fa5da4cb84e5df9e82b925, type: 3}
+  - {fileID: 21300000, guid: df715ab2a5b86f74c84df2180237534b, type: 3}
+  - {fileID: 21300000, guid: 3eb2ce5c49e897848b40ddf541125427, type: 3}
+  - {fileID: 21300000, guid: bcf04ae70e56a604885e849f7a0aa077, type: 3}
+  - {fileID: 21300000, guid: 29156024c295a4e4d8aaa0fdabcf912c, type: 3}
+  - {fileID: 21300000, guid: 48b9f1ebd8918774dab2f9b725e7e39d, type: 3}
+  - {fileID: 21300000, guid: 05afbbddaf6c71b44985a74bc365746d, type: 3}
+  - {fileID: 21300000, guid: 5e90440e22739944097939aee472ac10, type: 3}
+  - {fileID: 21300000, guid: 45e45d292d15c074bbd7705094291ca2, type: 3}
+  - {fileID: 21300000, guid: 7b54610144ecbbb4f9d5e22ab24793a4, type: 3}
+  - {fileID: 21300000, guid: de9f0544f3471884181add533e416b21, type: 3}
+  - {fileID: 21300000, guid: de6ddf00f052d4546afc455f7c567384, type: 3}
+  - {fileID: 21300000, guid: 75cd8445cd0b25643ab7c37551b7caed, type: 3}
+  - {fileID: 21300000, guid: 17a753f6aa0f1354fb6b4ec63a50f17d, type: 3}
+  - {fileID: 21300000, guid: 22b8d87f8048a344ba2951e7b6f958d4, type: 3}
+  - {fileID: 21300000, guid: 5684cf4edb300124e920c77dcd638e27, type: 3}
+  - {fileID: 21300000, guid: 5cbdd8d3185b71946950cf2e9efbdf4a, type: 3}
+  - {fileID: 21300000, guid: 19ca052bc067edd4cafd3f973299329f, type: 3}
+  - {fileID: 21300000, guid: 8ae7280e344f9ff4ca4606098d108de5, type: 3}
+  - {fileID: 21300000, guid: 49190dd3a4dde51488fb745008df5f88, type: 3}
+  - {fileID: 21300000, guid: 624222243f79f8b4a9451b2a393869d3, type: 3}
+  - {fileID: 21300000, guid: 2afb2a2ac3dc69c47a9daf135d6be772, type: 3}
+  - {fileID: 21300000, guid: cf81b57d8ae5df74a87b7bda478d39a7, type: 3}
+  - {fileID: 21300000, guid: e1c05329cae40a24a815ac2ad00b465f, type: 3}
+  - {fileID: 21300000, guid: 86c48719aa8930a42b961951eed9fad4, type: 3}
+  - {fileID: 21300000, guid: f995d37145a44f4479b42ec304dfbfca, type: 3}
+  - {fileID: 21300000, guid: 461a700f006f34a4f92235290b0a9310, type: 3}
+  - {fileID: 21300000, guid: 37784fcb2b4c34f4790d68343f9b581d, type: 3}
+  - {fileID: 21300000, guid: abd9293653627434ab1cf317c4cf31e2, type: 3}
+  - {fileID: 21300000, guid: 612f7108489f70a47853d517f61fe5dc, type: 3}
+  - {fileID: 21300000, guid: 446ed6c7339e47f49a41c11a7843588b, type: 3}
+  - {fileID: 21300000, guid: f3a6c947c60a44c4c9699758374d2756, type: 3}
+  - {fileID: 21300000, guid: e70afbbeded59fa429f8bc9583e05ed2, type: 3}
+  - {fileID: 21300000, guid: b7dab0932041887469693e4f73caf2ab, type: 3}
+  - {fileID: 21300000, guid: 4a90347a40e898d4baaf4279311af75f, type: 3}
+  - {fileID: 21300000, guid: 4d14ee9a157a9a74996a9ce00402bf31, type: 3}
+  - {fileID: 21300000, guid: 4cb37c727655e4242a461f312a6f001a, type: 3}
+  - {fileID: 21300000, guid: a90420405d2ab7d4ab8af3bbc228db35, type: 3}
+  - {fileID: 21300000, guid: 93160892783ab184baa4ebc19b9f09e4, type: 3}
+  - {fileID: 21300000, guid: 316e542bb3899cf4ba369dbf57ed0605, type: 3}
+  - {fileID: 21300000, guid: 8dffd6ef51785994e8b309cef46d7317, type: 3}
+  - {fileID: 21300000, guid: df1c06665a4c92746ad3fde2ecbfd2a6, type: 3}
+  - {fileID: 21300000, guid: c5994f8dd52da1844972944f1cd96ebd, type: 3}
+  - {fileID: 21300000, guid: a98788080e2bdfe418cf99ea59025142, type: 3}
+  - {fileID: 21300000, guid: 9c649e05498c7f946970261671986617, type: 3}
+  - {fileID: 21300000, guid: 6e5041954239726419bad21866fb1d95, type: 3}
+  - {fileID: 21300000, guid: b2b2ee9a0161c3148b24349d7f3ba26a, type: 3}
+  - {fileID: 21300000, guid: 17943051d7984bf4a9ffbaa407ff1e1a, type: 3}
+  - {fileID: 21300000, guid: 1b4df8895ee436048a825689165f23e0, type: 3}
+  - {fileID: 21300000, guid: 8ef45e5219e593f4b802b0f340ed8f55, type: 3}
+  - {fileID: 21300000, guid: 0406f5247aba3fe4a9e1110bbbc191a5, type: 3}
+  - {fileID: 21300000, guid: 9d97fb4b57eafed4ab5a99e3b2fb552a, type: 3}
+  - {fileID: 21300000, guid: 5c3fdafad1358014d90fa89c3ae9f3ad, type: 3}
+  - {fileID: 21300000, guid: b12bb3ec308a83e449953249f86ac420, type: 3}
+  - {fileID: 21300000, guid: a572ef137e770e743ae1153b278220e1, type: 3}
+  - {fileID: 21300000, guid: 573d78e324cce014e8c85266350294c3, type: 3}
+  - {fileID: 21300000, guid: 0dfa5756e0617674b983aaab4234ffb5, type: 3}
+  - {fileID: 21300000, guid: 40935b7d44c810743938b013a7c57dcc, type: 3}
+  - {fileID: 21300000, guid: 5754f3626fe72d04b9d9b8b5378bc9c7, type: 3}
+  - {fileID: 21300000, guid: 16d816a7b0c55c24b92692222f6808da, type: 3}
+  - {fileID: 21300000, guid: ab405fbf07994554b8d9dd6a930935b4, type: 3}
+  - {fileID: 21300000, guid: 725dcbc8f4895f34f924fbce92b2d10b, type: 3}
+  - {fileID: 21300000, guid: 1da8d27ae7fa38c41be7671522d2e174, type: 3}
+  - {fileID: 21300000, guid: 661106546c545de48ad3f395e2806e91, type: 3}
+  - {fileID: 21300000, guid: 80e627e66f8a5624c88efddd926659b8, type: 3}
+  - {fileID: 21300000, guid: f995a45f91a0c98429f56c6dd437510a, type: 3}
+  - {fileID: 21300000, guid: 3937dce111b7df840a56943b81811c84, type: 3}
+  - {fileID: 21300000, guid: d341556e036ca1c4f8d4585b81ad43ad, type: 3}
+  - {fileID: 21300000, guid: e44efce0c189d9640832761dc08098a9, type: 3}
+  - {fileID: 21300000, guid: 8f4f306cb17b849429e3cdb04f057ebf, type: 3}
+  - {fileID: 21300000, guid: fc10026e67868954496f9a5140b9dc6e, type: 3}
+  - {fileID: 21300000, guid: 408426853cd7b8441840d9520bb33d40, type: 3}
+  - {fileID: 21300000, guid: 8a6973189c700534595aa7532a53d3e5, type: 3}
+  - {fileID: 21300000, guid: b0a4ded2be870574192cbf6636557266, type: 3}
+  - {fileID: 21300000, guid: 77fbd2d031a05b6449475067a0f95770, type: 3}
+  - {fileID: 21300000, guid: 193bdc2dfd436d9478c48419cdf9a43e, type: 3}
+  - {fileID: 21300000, guid: 07bb5b5d3eed10b4f92f05fbcd5a82f1, type: 3}
+  - {fileID: 21300000, guid: 18c09c43477b746499abe99898eaa3b2, type: 3}
+  - {fileID: 21300000, guid: eb7341cbb98ecc04f8df0401a4956802, type: 3}
+  - {fileID: 21300000, guid: ec0dd58993ad5834290fb5e84327a6b3, type: 3}
+  - {fileID: 21300000, guid: 408a31a74b66c2747b2bc9b65ca61855, type: 3}
+  - {fileID: 21300000, guid: 90a87f7cc71d89245a6db489f1b63aa9, type: 3}
+  - {fileID: 21300000, guid: a22745bc0a3d8c348bc49a2102e5421c, type: 3}
+  - {fileID: 21300000, guid: 2fec2070fd2b982428276156d45443f5, type: 3}
+  - {fileID: 21300000, guid: 9364f3eafde3ad0439e0f29bd8f0dcc8, type: 3}
+  - {fileID: 21300000, guid: 4f5c5c3de345ccf42870cc91e946ab73, type: 3}
+  - {fileID: 21300000, guid: 09118fdddceea9745a845cc16677dc47, type: 3}
+  - {fileID: 21300000, guid: eb8c4b6a07a116a4d8aeeb14c654433c, type: 3}
+  - {fileID: 21300000, guid: 7218ae6adfa78a74ab1526317715697e, type: 3}
+  - {fileID: 21300000, guid: 50c22776ad837f24296bc898f548d52a, type: 3}
+  prefabsItem:
+  - {fileID: 6105649821986942912, guid: acec5e69c0d45954cbcd2688e9b54909, type: 3}
+  - {fileID: 8576169957861749825, guid: 8a839d8bed1afe34994bf13860bc02b2, type: 3}
+  - {fileID: 4878103011933378526, guid: a6af9bef1ade57f4ebabaa26b4338a0e, type: 3}
+  - {fileID: 5610314599162415578, guid: 710dda4683442e84a9a04ef9a68f692a, type: 3}
+  - {fileID: 6338294078337753748, guid: a516003d12e209e48b472df914685600, type: 3}
+  - {fileID: 3974599378312624699, guid: c5ec8cce86173314f9e9e35f49da76c0, type: 3}
+  - {fileID: 4139390984146990152, guid: 1f1f0d58a3af56847b65adc2cf8a6a52, type: 3}
+  - {fileID: 872325387057798501, guid: 3dbe6aa3a48a1974bbd3bc1e7fee0989, type: 3}
+  - {fileID: 2262700923037192618, guid: a2525986aa320094e8bc428ece8d8ed2, type: 3}
+  - {fileID: 136531182484690413, guid: e74e3a0c65a9aa540be2c82c7e7c5f6a, type: 3}
+  - {fileID: 281450429829046405, guid: ca6d6085c82786d4b97d0e92038ff4ae, type: 3}
+  - {fileID: 2271625515484803565, guid: 5e6e61513d7652c4faf22206df2b9922, type: 3}
+  - {fileID: 3895805317635044585, guid: b96780e36339bec41a05cb2575cbba6d, type: 3}
+  - {fileID: 1559793237036631882, guid: b89d82d86c0bc724cbc5a20dfc3f9bee, type: 3}
+  - {fileID: 8705827626927902199, guid: 9452452f4b5eb3044b8c17663ef81d2b, type: 3}
+  - {fileID: 6451655324699120140, guid: 4490e29c1ac8621449464763435ff462, type: 3}
+  - {fileID: 4710566627814133805, guid: 9a23c3569d19fab4cac0d5af1a3b0b52, type: 3}
+  - {fileID: 660635762105356211, guid: c445e4aa088f9634f87c1ad88200e839, type: 3}
+  - {fileID: 7931184270958282633, guid: 5e3af7ecee8997442ac601ccaefd2d15, type: 3}
+  - {fileID: 6427043957785802202, guid: 4cdb7973d56b2ba4b8d5cfe9b172e12a, type: 3}
+  - {fileID: 7686929502452693893, guid: 77a41ed8a98950543a8aabd46d186436, type: 3}
+  - {fileID: 334701907926246685, guid: 07b73854eec6d6a43bb1b2bf4ab79942, type: 3}
+  - {fileID: 2185858733582726853, guid: a9499b1ae05eb9e408de4d98a4b24a38, type: 3}
+  - {fileID: 3296910103130683020, guid: d74393198035d564d8d22c52cdf9a75a, type: 3}
+  - {fileID: 7741144049422978662, guid: fcefff2fc765e7a4d82d8bff27104df7, type: 3}
+  - {fileID: 497577486423247330, guid: d00cad24757a4f745b855034bdc05039, type: 3}
+  - {fileID: 425292213243068605, guid: b63d0a1ba01b6f64dbe49ed6828ab37c, type: 3}
+  - {fileID: 3025536645004414304, guid: 7a0a6752d7231bf4a89642927b7d444c, type: 3}
+  - {fileID: 3025536645004414304, guid: e4ffaafab59a39843a02cafa37b1d103, type: 3}
+  - {fileID: 3025536645004414304, guid: 6018e17e0ce109e4ea7050ac628e1812, type: 3}
+  - {fileID: 3025536645004414304, guid: a833cc6d0bb10ae4d9a5c5048ef12825, type: 3}
+  - {fileID: 3025536645004414304, guid: 8a12e41da6afe4746a077b22652d2a1d, type: 3}
+  - {fileID: 3025536645004414304, guid: 9e58e0daf0208504c85b8c88e1dfd453, type: 3}
+  - {fileID: 3025536645004414304, guid: 05b831945a3726b4fa551df0bf51df9b, type: 3}
+  - {fileID: 6403421938229622005, guid: 63ef55b7a1f0beb4a868ab931e24841b, type: 3}
+  - {fileID: 2161697600288288548, guid: 10abd546926f44242bc68dbcb4adead8, type: 3}
+  - {fileID: 7093501109878697524, guid: e3cf77171a6a8594c9d977703d726551, type: 3}
+  - {fileID: 4156432488635858040, guid: d8f6af0553e075846b1def9c384ddfaf, type: 3}
+  - {fileID: 4380107807712285068, guid: 17f37494cf0cbf543bfaaa8aafa4c168, type: 3}
+  - {fileID: 6280919201373549702, guid: 57b86173789f7d34594e5319b87959d3, type: 3}
+  - {fileID: 1536490558388433703, guid: 3dad7d240d4ccbd48ad51fadd290ace1, type: 3}
+  - {fileID: 5533847828119948129, guid: 06b4cdae595664a4990ed123a5605cce, type: 3}
+  - {fileID: 7278319102656324561, guid: 537e67c0806dfa248b619758a0b6a4c8, type: 3}
+  - {fileID: 3122327299623626878, guid: cff65d47293f5614d9dca66f357dd448, type: 3}
+  - {fileID: 9035718856527607, guid: 6878273bd9922b9449e5b9ab0e219c89, type: 3}
+  - {fileID: 8140340939216494338, guid: 76117a9769586a5448c3e6b5fa6686ca, type: 3}
+  - {fileID: 7624387175294916978, guid: 4828a396b2533014983f51aad73ab1c9, type: 3}
+  - {fileID: 6483078395157644625, guid: f5e8f7f4c10cb0d439d867704e47fd2d, type: 3}
+  - {fileID: 2965674443620950695, guid: a9a1f84638ea5df408105e90cc9f50ff, type: 3}
+  - {fileID: 8652689576798326490, guid: 846b61110fa4f5d41a9ace953a5d7147, type: 3}
+  - {fileID: 5394696113461671206, guid: e7e95ea75d406d742a01b4ec66d7277b, type: 3}
+  - {fileID: 2809477724320874054, guid: 57fa6297f5d3c3b4390585285dd5682f, type: 3}
+  - {fileID: 8447959010425718025, guid: cc8a277fa9e986542acc71158b039775, type: 3}
+  - {fileID: 4571473351913358532, guid: d5b7cd3dce585034d81ecb396f03b2f6, type: 3}
+  - {fileID: 5210142110151108700, guid: 42885024a52e02943a81b8fe4dfec7b1, type: 3}
+  - {fileID: 5771668423662911729, guid: f9757fa950fdef64e83743440bc2bc8d, type: 3}
+  - {fileID: 5113106519859413158, guid: bcc4ab002139f8d4bb617084798f0b77, type: 3}
+  - {fileID: 7765312578957297171, guid: 4b3102f242f2d5944a47f09234e79787, type: 3}
+  - {fileID: 3104505129417902366, guid: 68b43ad6efc44b14aae81339d40f8993, type: 3}
+  - {fileID: 2073277855075797204, guid: 89edf9832d8a9624890cb6a1cd4a75b6, type: 3}
+  - {fileID: 8136839705700715786, guid: b5812c31a5958204da09d49fec036142, type: 3}
+  - {fileID: 6471650646496919112, guid: f69149bf6a514ac4c8ab654d7410f479, type: 3}
+  - {fileID: 5796375516407172429, guid: 2ac1cf611e832954db55438cd117661e, type: 3}
+  - {fileID: 4699577000634315024, guid: 1d837c6eb70d748469483660bbc77ac1, type: 3}
+  - {fileID: 1277670203517355374, guid: c7869b5c23581194d84d393c735531c8, type: 3}
+  - {fileID: 4988023865467770040, guid: 4e976ad68c0a95b4fbd74019e9e36eda, type: 3}
+  - {fileID: 7023248896615729377, guid: 8c9cf2fdb8ffc384095deb7149539547, type: 3}
+  - {fileID: 5930809541598356610, guid: 49bacb553e1cce142bdc6341657ce17f, type: 3}
+  - {fileID: 7295038705441041169, guid: ce7b5ff467d106142904434df712679c, type: 3}
+  - {fileID: 6164309193579818714, guid: 7ab6eb57ac0383d4686ff593d53a9bc9, type: 3}
+  - {fileID: 215222803611661294, guid: 60d387fd3296d8c49ac433f3f51b537e, type: 3}
+  - {fileID: 6620894618753162820, guid: 23d176942afc9f14c9a3c82d86da0c77, type: 3}
+  - {fileID: 4182480503237527433, guid: d51d5bd300463ec4c8cdfb051fb4748c, type: 3}
+  - {fileID: 2240679621285096911, guid: 2e69214b80a2e894cb6fdb244054d8d8, type: 3}
+  - {fileID: 1720058765357615978, guid: 9de6a6f861a59624d8106e78e0538234, type: 3}
+  - {fileID: 2450512342435378198, guid: 16de14bc0998f6149821de9200b72390, type: 3}
+  - {fileID: 8225053211543298691, guid: 10b696e9e556197488dcc7346ea921ce, type: 3}
+  - {fileID: 7444651157685596868, guid: 9ee62aae62dd91549add1cf6eada2831, type: 3}
+  - {fileID: 2619166697646777424, guid: ff98c6d688ada9642a1f01520a7ec41d, type: 3}
+  - {fileID: 3278220265820455280, guid: db262f7ef639cc74f9c067ce4edf5921, type: 3}
+  - {fileID: 8805960368535696747, guid: 2446c99787b58eb42ab08a1646324a9f, type: 3}

@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661a7d68310ba9044a0d1d9e4781e4c5, type: 3}
+  m_Name: LevelAsset
+  m_EditorClassIdentifier: 
+  useRandom: 0
+  list:
+  - name: 0
+    id: 0
+    idThumb: 
+    index: 0
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 1
+    exp: 10
+    coin: 25
+    gem: 1
+  - name: 1
+    id: 1
+    idThumb: 
+    index: 1
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 2
+    exp: 10
+    coin: 35
+    gem: 1
+  - name: 2
+    id: 2
+    idThumb: 
+    index: 2
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 3
+    exp: 25
+    coin: 45
+    gem: 1
+  - name: 3
+    id: 3
+    idThumb: 
+    index: 3
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 4
+    exp: 45
+    coin: 55
+    gem: 1
+  - name: 4
+    id: 4
+    idThumb: 
+    index: 4
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 5
+    exp: 60
+    coin: 65
+    gem: 1
+  - name: 5
+    id: 5
+    idThumb: 
+    index: 5
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 6
+    exp: 100
+    coin: 45
+    gem: 1
+  - name: 6
+    id: 6
+    idThumb: 
+    index: 6
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 7
+    exp: 150
+    coin: 80
+    gem: 1
+  - name: 7
+    id: 7
+    idThumb: 
+    index: 7
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 8
+    exp: 275
+    coin: 90
+    gem: 1
+  - name: 8
+    id: 8
+    idThumb: 
+    index: 8
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 9
+    exp: 355
+    coin: 100
+    gem: 1
+  - name: 9
+    id: 9
+    idThumb: 
+    index: 9
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 10
+    exp: 390
+    coin: 110
+    gem: 1
+  - name: 10
+    id: 10
+    idThumb: 
+    index: 10
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 11
+    exp: 460
+    coin: 120
+    gem: 1
+  - name: 11
+    id: 11
+    idThumb: 
+    index: 11
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 12
+    exp: 600
+    coin: 130
+    gem: 2
+  - name: 12
+    id: 12
+    idThumb: 
+    index: 12
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 13
+    exp: 750
+    coin: 140
+    gem: 1
+  - name: 13
+    id: 13
+    idThumb: 
+    index: 13
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 14
+    exp: 900
+    coin: 150
+    gem: 2
+  - name: 14
+    id: 14
+    idThumb: 
+    index: 14
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 15
+    exp: 1350
+    coin: 160
+    gem: 2
+  - name: 15
+    id: 15
+    idThumb: 
+    index: 15
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 16
+    exp: 2025
+    coin: 170
+    gem: 2
+  - name: 16
+    id: 16
+    idThumb: 
+    index: 16
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 17
+    exp: 3037
+    coin: 180
+    gem: 2
+  - name: 17
+    id: 17
+    idThumb: 
+    index: 17
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 18
+    exp: 4555
+    coin: 190
+    gem: 2
+  - name: 18
+    id: 18
+    idThumb: 
+    index: 18
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 19
+    exp: 6832
+    coin: 200
+    gem: 2
+  - name: 19
+    id: 19
+    idThumb: 
+    index: 19
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    level: 20
+    exp: 10248
+    coin: 210
+    gem: 2
+  mutilExp: 0.5
+  mutilCoin: 0.2
+  data_json: '{"levelDatas":[{"level":1,"exp":10,"coin":25,"gem":1},{"level":2,"exp":10,"coin":35,"gem":1},{"level":3,"exp":25,"coin":45,"gem":1},{"level":4,"exp":45,"coin":55,"gem":1},{"level":5,"exp":60,"coin":65,"gem":1},{"level":6,"exp":100,"coin":45,"gem":1},{"level":7,"exp":150,"coin":80,"gem":1},{"level":8,"exp":275,"coin":90,"gem":1},{"level":9,"exp":355,"coin":100,"gem":1},{"level":10,"exp":390,"coin":110,"gem":1},{"level":11,"exp":460,"coin":120,"gem":1},{"level":12,"exp":600,"coin":130,"gem":2},{"level":13,"exp":750,"coin":140,"gem":1},{"level":14,"exp":900,"coin":150,"gem":2},{"level":15,"exp":1350,"coin":160,"gem":2},{"level":16,"exp":2025,"coin":170,"gem":2},{"level":17,"exp":3037,"coin":180,"gem":2},{"level":18,"exp":4555,"coin":190,"gem":2},{"level":19,"exp":6832,"coin":200,"gem":2},{"level":20,"exp":10248,"coin":210,"gem":2}]}'
+  lisJson:
+  - level: 1
+    exp: 10
+    coin: 25
+    gem: 1
+  - level: 2
+    exp: 10
+    coin: 35
+    gem: 1
+  - level: 3
+    exp: 25
+    coin: 45
+    gem: 1
+  - level: 4
+    exp: 45
+    coin: 55
+    gem: 1
+  - level: 5
+    exp: 60
+    coin: 65
+    gem: 1
+  - level: 6
+    exp: 100
+    coin: 45
+    gem: 1
+  - level: 7
+    exp: 150
+    coin: 80
+    gem: 1
+  - level: 8
+    exp: 275
+    coin: 90
+    gem: 1
+  - level: 9
+    exp: 355
+    coin: 100
+    gem: 1
+  - level: 10
+    exp: 390
+    coin: 110
+    gem: 1
+  - level: 11
+    exp: 460
+    coin: 120
+    gem: 1
+  - level: 12
+    exp: 600
+    coin: 130
+    gem: 2
+  - level: 13
+    exp: 750
+    coin: 140
+    gem: 1
+  - level: 14
+    exp: 900
+    coin: 150
+    gem: 2
+  - level: 15
+    exp: 1350
+    coin: 160
+    gem: 2
+  - level: 16
+    exp: 2025
+    coin: 170
+    gem: 2
+  - level: 17
+    exp: 3037
+    coin: 180
+    gem: 2
+  - level: 18
+    exp: 4555
+    coin: 190
+    gem: 2
+  - level: 19
+    exp: 6832
+    coin: 200
+    gem: 2
+  - level: 20
+    exp: 10248
+    coin: 210
+    gem: 2

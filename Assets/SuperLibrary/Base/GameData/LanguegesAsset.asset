@@ -1,0 +1,1352 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f058879b72edb994abcc2bc195721e96, type: 3}
+  m_Name: LanguegesAsset
+  m_EditorClassIdentifier: 
+  useRandom: 0
+  list:
+  - name: Congratulations!
+    id: 0
+    idThumb: 
+    index: 0
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Ch\xFAc m\u1EEBng b\u1EA1n !"
+  - name: You'ra reached level
+    id: 1
+    idThumb: 
+    index: 1
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "B\u1EA1n \u0111\u1EA1t \u0111\u1EBFn c\u1EA5p \u0111\u1ED9"
+  - name: 'Your reward:'
+    id: 2
+    idThumb: 
+    index: 2
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Ph\u1EA7n th\u01B0\u1EDFng c\u1EE7a b\u1EA1n:"
+  - name: 'Now available:'
+    id: 3
+    idThumb: 
+    index: 3
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Hi\u1EC7n t\u1EA1i c\xF3 s\u1EB5n:"
+  - name: Not enough diamond!
+    id: 4
+    idThumb: 
+    index: 4
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kh\xF4ng \u0111\u1EE7 kim c\u01B0\u01A1ng!"
+  - name: Gift
+    id: 5
+    idThumb: 
+    index: 5
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Qu\xE0"
+  - name: Buy more coin by video
+    id: 6
+    idThumb: 
+    index: 6
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Mua th\xEAm ti\u1EC1n b\u1EB1ng video"
+  - name: Claim
+    id: 7
+    idThumb: 
+    index: 7
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Nh\u1EADn th\u01B0\u1EDFng"
+  - name: Please accept all sales!
+    id: 8
+    idThumb: 
+    index: 8
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Vui l\xF2ng nh\u1EADn ti\u1EC1n c\u1EE7a c\xE1c s\u1EA3n ph\u1EA9m \u0111\xE3
+      b\xE1n!"
+  - name: Not enough coin!
+    id: 9
+    idThumb: 
+    index: 9
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kh\xF4ng \u0111\u1EE7 ti\u1EC1n!"
+  - name: The warehouse is full!
+    id: 10
+    idThumb: 
+    index: 10
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kho \u0111\u1EA7y!"
+  - name: Please wait for the new sale!
+    id: 11
+    idThumb: 
+    index: 11
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Vui l\xF2ng ch\u1EDD l\u01B0\u1EE3t b\xE1n m\u1EDBi!"
+  - name: Products are on sale!
+    id: 12
+    idThumb: 
+    index: 12
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "S\u1EA3n ph\u1EA9m \u0111ang \u0111\u01B0\u1EE3c b\xE1n!"
+  - name: Settings
+    id: 13
+    idThumb: 
+    index: 13
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "C\xE0i \u0111\u1EB7t"
+  - name: Exit Game
+    id: 14
+    idThumb: 
+    index: 14
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Tho\xE1t tr\xF2 ch\u01A1i"
+  - name: Yes
+    id: 15
+    idThumb: 
+    index: 15
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "C\xF3"
+  - name: No
+    id: 16
+    idThumb: 
+    index: 16
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kh\xF4ng"
+  - name: Do you want exit game?
+    id: 17
+    idThumb: 
+    index: 17
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "B\u1EA1n c\xF3 mu\u1ED1n tho\xE1t kh\u1ECFi tr\xF2 ch\u01A1i?"
+  - name: Expansion of arable land
+    id: 18
+    idThumb: 
+    index: 18
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "M\u1EDF r\u1ED9ng \u0111\u1EA5t tr\u1ED3ng"
+  - name: You need enough materials below.
+    id: 19
+    idThumb: 
+    index: 19
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "B\u1EA1n c\u1EA7n \u0111\u1EE7 c\xE1c v\u1EADt li\u1EC7u b\xEAn d\u01B0\u1EDBi."
+  - name: Loading...
+    id: 20
+    idThumb: 
+    index: 20
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "\u0110ang t\u1EA3i..."
+  - name: Silo
+    id: 21
+    idThumb: 
+    index: 21
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Nh\xE0 L\u01B0\u01A1ng"
+  - name: Storage
+    id: 22
+    idThumb: 
+    index: 22
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Nh\xE0 Kho"
+  - name: Upgrade your storage
+    id: 23
+    idThumb: 
+    index: 23
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "N\xE2ng c\u1EA5p"
+  - name: Max
+    id: 24
+    idThumb: 
+    index: 24
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "T\u1ED1i \u0111a"
+  - name: Item for sale
+    id: 25
+    idThumb: 
+    index: 25
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "B\xE1n v\u1EADt ph\u1EA9m"
+  - name: Load
+    id: 26
+    idThumb: 
+    index: 26
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Th\xEAm"
+  - name: Upgrade
+    id: 27
+    idThumb: 
+    index: 27
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "N\xE2ng c\u1EA5p"
+  - name: Order table
+    id: 28
+    idThumb: 
+    index: 28
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "\u0110\u01A1n h\xE0ng"
+  - name: Bonus
+    id: 29
+    idThumb: 
+    index: 29
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "T\u1EB7ng k\xE8m"
+  - name: Achievements
+    id: 30
+    idThumb: 
+    index: 30
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Th\xE0nh t\u1EF1u"
+  - name: Not enough resuorces
+    id: 31
+    idThumb: 
+    index: 31
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kh\xF4ng \u0111\u1EE7 d\u1EE5ng c\u1EE5"
+  - name: Free!
+    id: 32
+    idThumb: 
+    index: 32
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Mi\u1EC5n ph\xED"
+  - name: Buy more ingredients by video
+    id: 33
+    idThumb: 
+    index: 33
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Xem video \u0111\u1EC3 nh\u1EADn mi\u1EC5n ph\xED"
+  - name: Table Buy
+    id: 34
+    idThumb: 
+    index: 34
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Ch\u1EE3 mua h\xE0ng"
+  - name: Table Sell
+    id: 35
+    idThumb: 
+    index: 35
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Ch\u1EE3 b\xE1n h\xE0ng"
+  - name: New goods will be available at
+    id: 36
+    idThumb: 
+    index: 36
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "H\xE0ng m\u1EDBi s\u1EBD c\xF3 s\u1EB5n sau:"
+  - name: Open next day
+    id: 37
+    idThumb: 
+    index: 37
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "M\u1EDF c\u1EEDa v\xE0o ng\xE0y h\xF4m sau"
+  - name: Empty
+    id: 38
+    idThumb: 
+    index: 38
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Tr\u1ED1ng"
+  - name: Selling items take time, but all the goods will be sold eventually.
+    id: 39
+    idThumb: 
+    index: 39
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "B\xE1n c\xE1c m\u1EB7t h\xE0ng c\u1EA7n c\xF3 th\u1EDDi gian, nh\u01B0ng
+      t\u1EA5t c\u1EA3 c\xE1c h\xE0ng h\xF3a s\u1EBD \u0111\u01B0\u1EE3c b\xE1n cu\u1ED1i
+      c\xF9ng."
+  - name: Speed up
+    id: 40
+    idThumb: 
+    index: 40
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "T\u0103ng t\u1ED1c"
+  - name: Speed up free
+    id: 41
+    idThumb: 
+    index: 41
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "T\u0103ng t\u1ED1c"
+  - name: Video reward
+    id: 42
+    idThumb: 
+    index: 42
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Ph\u1EA7n th\u01B0\u1EDFng video"
+  - name: Loading... please wait!
+    id: 43
+    idThumb: 
+    index: 43
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "\u0110ang t\u1EA3i... vui l\xF2ng \u0111\u1EE3i!"
+  - name: SOLD
+    id: 44
+    idThumb: 
+    index: 44
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "\u0110\xC3 B\xC1N"
+  - name: Unlock level
+    id: 45
+    idThumb: 
+    index: 45
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "M\u1EDF kh\xF3a c\u1EA5p \u0111\u1ED9"
+  - name: Bought out
+    id: 46
+    idThumb: 
+    index: 46
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Mua l\u1EA1i"
+  - name: Take reward
+    id: 47
+    idThumb: 
+    index: 47
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Nh\u1EADn th\u01B0\u1EDFng"
+  - name: Cage is full!
+    id: 48
+    idThumb: 
+    index: 48
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Chu\u1ED3ng \u0111\xE3 \u0111\u1EA7y!"
+  - name: Not enough food to feed!
+    id: 49
+    idThumb: 
+    index: 49
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kh\xF4ng \u0111\u1EE7 th\u1EE9c \u0103n!"
+  - name: Car is shipping orders!
+    id: 50
+    idThumb: 
+    index: 50
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Xe \u0111ang tr\xEAn \u0111\u01B0\u1EDDng v\u1EADn chuy\u1EC3n \u0111\u01A1n
+      h\xE0ng!"
+  - name: Not enough production materials!
+    id: 51
+    idThumb: 
+    index: 51
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kh\xF4ng \u0111\u1EE7 nguy\xEAn li\u1EC7u"
+  - name: Not enought coin!
+    id: 52
+    idThumb: 
+    index: 52
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kh\xF4ng \u0111\u1EE7 ti\u1EC1n xu!"
+  - name: Not enough space!
+    id: 53
+    idThumb: 
+    index: 53
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kh\xF4ng \u0111\u1EE7 kho\u1EA3ng tr\u1ED1ng!"
+  - name: Not enough coin to planting!
+    id: 54
+    idThumb: 
+    index: 54
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kh\xF4ng \u0111\u1EE7 ti\u1EC1n \u0111\u1EC3 tr\u1ED3ng!"
+  - name: Not enought diamond!
+    id: 55
+    idThumb: 
+    index: 55
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kh\xF4ng \u0111\u1EE7 kim c\u01B0\u01A1ng!"
+  - name: Please complete the order!
+    id: 56
+    idThumb: 
+    index: 56
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Vui l\xF2ng ho\xE0n th\xE0nh \u0111\u01A1n h\xE0ng!"
+  - name: Please try again...!
+    id: 57
+    idThumb: 
+    index: 57
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Vui l\xF2ng th\u1EED l\u1EA1i...!"
+  - name: Something wrong, please try again...!
+    id: 58
+    idThumb: 
+    index: 58
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Xin vui l\xF2ng th\u1EED l\u1EA1i...!"
+  - name: Not enought materal!
+    id: 59
+    idThumb: 
+    index: 59
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kh\xF4ng \u0111\u1EE7 nguy\xEAn li\u1EC7u"
+  - name: Not enough coin to buy!
+    id: 60
+    idThumb: 
+    index: 60
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kh\xF4ng \u0111\u1EE7 ti\u1EC1n \u0111\u1EC3 mua!"
+  - name: Schools
+    id: 61
+    idThumb: 
+    index: 61
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Tr\u01B0\u1EDDng h\u1ECDc"
+  - name: Jewelry Shop
+    id: 62
+    idThumb: 
+    index: 62
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "C\u1EEDa h\xE0ng trang s\u1EE9c"
+  - name: Grocery Store
+    id: 63
+    idThumb: 
+    index: 63
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "C\u1EEDa h\xE0ng t\u1EA1p h\xF3a"
+  - name: Eatery
+    id: 64
+    idThumb: 
+    index: 64
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Qu\xE1n \u0103n"
+  - name: Flower Shop
+    id: 65
+    idThumb: 
+    index: 65
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "C\u1EEDa h\xE0ng hoa"
+  - name: Clothing Store
+    id: 66
+    idThumb: 
+    index: 66
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "C\u1EEDa h\xE0ng qu\u1EA7n \xE1o"
+  - name: City Hall
+    id: 67
+    idThumb: 
+    index: 67
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "To\xE0 th\u1ECB ch\xEDnh"
+  - name: Bowling center
+    id: 68
+    idThumb: 
+    index: 68
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Trung t\xE2m bowling"
+  - name: Restaurant
+    id: 69
+    idThumb: 
+    index: 69
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Nh\xE0 h\xE0ng"
+  - name: New
+    id: 70
+    idThumb: 
+    index: 70
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "M\u1EDBi"
+  - name: MAX
+    id: 71
+    idThumb: 
+    index: 71
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "T\u1ED1i \u0111a"
+  - name: Buy
+    id: 72
+    idThumb: 
+    index: 72
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: Mua
+  - name: Time to sell
+    id: 73
+    idThumb: 
+    index: 73
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Th\u1EDDi gian ch\u1EDD b\xE1n:"
+  - name: Video Reward not ready, please try again...!
+    id: 74
+    idThumb: 
+    index: 74
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Ph\u1EA7n th\u01B0\u1EDFng video ch\u01B0a s\u1EB5n s\xE0ng, vui l\xF2ng
+      th\u1EED l\u1EA1i ...!"
+  - name: Not enought materal
+    id: 75
+    idThumb: 
+    index: 75
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Kh\xF4ng \u0111\u1EE7 v\u1EADt li\u1EC7u!"
+  - name: Thank you!
+    id: 76
+    idThumb: 
+    index: 76
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "C\u1EA3m \u01A1n b\u1EA1n!"
+  - name: Harbor
+    id: 77
+    idThumb: 
+    index: 77
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "H\u1EA3i c\u1EA3ng"
+  - name: 'Required products:'
+    id: 78
+    idThumb: 
+    index: 78
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Y\xEAu c\u1EA7u c\xE1c s\u1EA3n ph\u1EA9m:"
+  - name: Home
+    id: 79
+    idThumb: 
+    index: 79
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "N\xF4ng tr\u1EA1i"
+  - name: Expand
+    id: 80
+    idThumb: 
+    index: 80
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "M\u1EDF r\u1ED9ng"
+  - name: Finish
+    id: 81
+    idThumb: 
+    index: 81
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Ho\xE0n th\xE0nh"
+  - name: 'Next task will appear in:'
+    id: 82
+    idThumb: 
+    index: 82
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Nhi\u1EC7m v\u1EE5 ti\u1EBFp theo s\u1EBD xu\u1EA5t hi\u1EC7n trong:"
+  - name: Mining
+    id: 83
+    idThumb: 
+    index: 83
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Khai th\xE1c m\u1ECF"
+  - name: Exploit
+    id: 84
+    idThumb: 
+    index: 84
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Khai th\xE1c"
+  - name: Mining Mines
+    id: 85
+    idThumb: 
+    index: 85
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "M\u1ECF khai th\xE1c"
+  - name: Please open the previous map!
+    id: 86
+    idThumb: 
+    index: 86
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Vui l\xF2ng m\u1EDF \xF4 \u0111\u1EA5t tr\u01B0\u1EDBc!"
+  - name: Ship is shipping orders!
+    id: 87
+    idThumb: 
+    index: 87
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "T\xE0u \u0111ang v\u1EADn chuy\u1EC3n \u0111\u01A1n h\xE0ng!"
+  - name: Pick an item
+    id: 88
+    idThumb: 
+    index: 88
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: "Ch\u1ECDn s\u1EA3n ph\u1EA9m"
+  data_json: "{\"languegesDatas\":[{\"English\":\"Congratulations!\",\"VietNam\":\"Ch\xFAc
+    m\u1EEBng b\u1EA1n !\"},{\"English\":\"You'ra reached level\",\"VietNam\":\"B\u1EA1n
+    \u0111\u1EA1t \u0111\u1EBFn c\u1EA5p \u0111\u1ED9\"},{\"English\":\"Your reward:\",\"VietNam\":\"Ph\u1EA7n
+    th\u01B0\u1EDFng c\u1EE7a b\u1EA1n:\"},{\"English\":\"Now available:\",\"VietNam\":\"Hi\u1EC7n
+    t\u1EA1i c\xF3 s\u1EB5n:\"},{\"English\":\"Not enough diamond!\",\"VietNam\":\"Kh\xF4ng
+    \u0111\u1EE7 kim c\u01B0\u01A1ng!\"},{\"English\":\"Gift\",\"VietNam\":\"Qu\xE0\"},{\"English\":\"Buy
+    more coin by video\",\"VietNam\":\"Mua th\xEAm ti\u1EC1n b\u1EB1ng video\"},{\"English\":\"Claim\",\"VietNam\":\"Nh\u1EADn
+    th\u01B0\u1EDFng\"},{\"English\":\"Please accept all sales!\",\"VietNam\":\"Vui
+    l\xF2ng nh\u1EADn ti\u1EC1n c\u1EE7a c\xE1c s\u1EA3n ph\u1EA9m \u0111\xE3 b\xE1n!\"},{\"English\":\"Not
+    enough coin!\",\"VietNam\":\"Kh\xF4ng \u0111\u1EE7 ti\u1EC1n!\"},{\"English\":\"The
+    warehouse is full!\",\"VietNam\":\"Kho \u0111\u1EA7y!\"},{\"English\":\"Please
+    wait for the new sale!\",\"VietNam\":\"Vui l\xF2ng ch\u1EDD l\u01B0\u1EE3t b\xE1n
+    m\u1EDBi!\"},{\"English\":\"Products are on sale!\",\"VietNam\":\"S\u1EA3n ph\u1EA9m
+    \u0111ang \u0111\u01B0\u1EE3c b\xE1n!\"},{\"English\":\"Settings\",\"VietNam\":\"C\xE0i
+    \u0111\u1EB7t\"},{\"English\":\"Exit Game\",\"VietNam\":\"Tho\xE1t tr\xF2 ch\u01A1i\"},{\"English\":\"Yes\",\"VietNam\":\"C\xF3\"},{\"English\":\"No\",\"VietNam\":\"Kh\xF4ng\"},{\"English\":\"Do
+    you want exit game?\",\"VietNam\":\"B\u1EA1n c\xF3 mu\u1ED1n tho\xE1t kh\u1ECFi
+    tr\xF2 ch\u01A1i?\"},{\"English\":\"Expansion of arable land\",\"VietNam\":\"M\u1EDF
+    r\u1ED9ng \u0111\u1EA5t tr\u1ED3ng\"},{\"English\":\"You need enough materials
+    below.\",\"VietNam\":\"B\u1EA1n c\u1EA7n \u0111\u1EE7 c\xE1c v\u1EADt li\u1EC7u
+    b\xEAn d\u01B0\u1EDBi.\"},{\"English\":\"Loading...\",\"VietNam\":\"\u0110ang
+    t\u1EA3i...\"},{\"English\":\"Silo\",\"VietNam\":\"Nh\xE0 L\u01B0\u01A1ng\"},{\"English\":\"Storage\",\"VietNam\":\"Nh\xE0
+    Kho\"},{\"English\":\"Upgrade your storage\",\"VietNam\":\"N\xE2ng c\u1EA5p\"},{\"English\":\"Max\",\"VietNam\":\"T\u1ED1i
+    \u0111a\"},{\"English\":\"Item for sale\",\"VietNam\":\"B\xE1n v\u1EADt ph\u1EA9m\"},{\"English\":\"Load\",\"VietNam\":\"Th\xEAm\"},{\"English\":\"Upgrade\",\"VietNam\":\"N\xE2ng
+    c\u1EA5p\"},{\"English\":\"Order table\",\"VietNam\":\"\u0110\u01A1n h\xE0ng\"},{\"English\":\"Bonus\",\"VietNam\":\"T\u1EB7ng
+    k\xE8m\"},{\"English\":\"Achievements\",\"VietNam\":\"Th\xE0nh t\u1EF1u\"},{\"English\":\"Not
+    enough resuorces\",\"VietNam\":\"Kh\xF4ng \u0111\u1EE7 d\u1EE5ng c\u1EE5\"},{\"English\":\"Free!\",\"VietNam\":\"Mi\u1EC5n
+    ph\xED\"},{\"English\":\"Buy more ingredients by video\",\"VietNam\":\"Xem video
+    \u0111\u1EC3 nh\u1EADn mi\u1EC5n ph\xED\"},{\"English\":\"Table Buy\",\"VietNam\":\"Ch\u1EE3
+    mua h\xE0ng\"},{\"English\":\"Table Sell\",\"VietNam\":\"Ch\u1EE3 b\xE1n h\xE0ng\"},{\"English\":\"New
+    goods will be available at\",\"VietNam\":\"H\xE0ng m\u1EDBi s\u1EBD c\xF3 s\u1EB5n
+    sau:\"},{\"English\":\"Open next day\",\"VietNam\":\"M\u1EDF c\u1EEDa v\xE0o
+    ng\xE0y h\xF4m sau\"},{\"English\":\"Empty\",\"VietNam\":\"Tr\u1ED1ng\"},{\"English\":\"Selling
+    items take time, but all the goods will be sold eventually.\",\"VietNam\":\"B\xE1n
+    c\xE1c m\u1EB7t h\xE0ng c\u1EA7n c\xF3 th\u1EDDi gian, nh\u01B0ng t\u1EA5t c\u1EA3
+    c\xE1c h\xE0ng h\xF3a s\u1EBD \u0111\u01B0\u1EE3c b\xE1n cu\u1ED1i c\xF9ng.\"},{\"English\":\"Speed
+    up\",\"VietNam\":\"T\u0103ng t\u1ED1c\"},{\"English\":\"Speed up free\",\"VietNam\":\"T\u0103ng
+    t\u1ED1c\"},{\"English\":\"Video reward\",\"VietNam\":\"Ph\u1EA7n th\u01B0\u1EDFng
+    video\"},{\"English\":\"Loading... please wait!\",\"VietNam\":\"\u0110ang t\u1EA3i...
+    vui l\xF2ng \u0111\u1EE3i!\"},{\"English\":\"SOLD\",\"VietNam\":\"\u0110\xC3
+    B\xC1N\"},{\"English\":\"Unlock level\",\"VietNam\":\"M\u1EDF kh\xF3a c\u1EA5p
+    \u0111\u1ED9\"},{\"English\":\"Bought out\",\"VietNam\":\"Mua l\u1EA1i\"},{\"English\":\"Take
+    reward\",\"VietNam\":\"Nh\u1EADn th\u01B0\u1EDFng\"},{\"English\":\"Cage is full!\",\"VietNam\":\"Chu\u1ED3ng
+    \u0111\xE3 \u0111\u1EA7y!\"},{\"English\":\"Not enough food to feed!\",\"VietNam\":\"Kh\xF4ng
+    \u0111\u1EE7 th\u1EE9c \u0103n!\"},{\"English\":\"Car is shipping orders!\",\"VietNam\":\"Xe
+    \u0111ang tr\xEAn \u0111\u01B0\u1EDDng v\u1EADn chuy\u1EC3n \u0111\u01A1n h\xE0ng!\"},{\"English\":\"Not
+    enough production materials!\",\"VietNam\":\"Kh\xF4ng \u0111\u1EE7 nguy\xEAn
+    li\u1EC7u\"},{\"English\":\"Not enought coin!\",\"VietNam\":\"Kh\xF4ng \u0111\u1EE7
+    ti\u1EC1n xu!\"},{\"English\":\"Not enough space!\",\"VietNam\":\"Kh\xF4ng \u0111\u1EE7
+    kho\u1EA3ng tr\u1ED1ng!\"},{\"English\":\"Not enough coin to planting!\",\"VietNam\":\"Kh\xF4ng
+    \u0111\u1EE7 ti\u1EC1n \u0111\u1EC3 tr\u1ED3ng!\"},{\"English\":\"Not enought
+    diamond!\",\"VietNam\":\"Kh\xF4ng \u0111\u1EE7 kim c\u01B0\u01A1ng!\"},{\"English\":\"Please
+    complete the order!\",\"VietNam\":\"Vui l\xF2ng ho\xE0n th\xE0nh \u0111\u01A1n
+    h\xE0ng!\"},{\"English\":\"Please try again...!\",\"VietNam\":\"Vui l\xF2ng th\u1EED
+    l\u1EA1i...!\"},{\"English\":\"Something wrong, please try again...!\",\"VietNam\":\"Xin
+    vui l\xF2ng th\u1EED l\u1EA1i...!\"},{\"English\":\"Not enought materal!\",\"VietNam\":\"Kh\xF4ng
+    \u0111\u1EE7 nguy\xEAn li\u1EC7u\"},{\"English\":\"Not enough coin to buy!\",\"VietNam\":\"Kh\xF4ng
+    \u0111\u1EE7 ti\u1EC1n \u0111\u1EC3 mua!\"},{\"English\":\"Schools\",\"VietNam\":\"Tr\u01B0\u1EDDng
+    h\u1ECDc\"},{\"English\":\"Jewelry Shop\",\"VietNam\":\"C\u1EEDa h\xE0ng trang
+    s\u1EE9c\"},{\"English\":\"Grocery Store\",\"VietNam\":\"C\u1EEDa h\xE0ng t\u1EA1p
+    h\xF3a\"},{\"English\":\"Eatery\",\"VietNam\":\"Qu\xE1n \u0103n\"},{\"English\":\"Flower
+    Shop\",\"VietNam\":\"C\u1EEDa h\xE0ng hoa\"},{\"English\":\"Clothing Store\",\"VietNam\":\"C\u1EEDa
+    h\xE0ng qu\u1EA7n \xE1o\"},{\"English\":\"City Hall\",\"VietNam\":\"To\xE0 th\u1ECB
+    ch\xEDnh\"},{\"English\":\"Bowling center\",\"VietNam\":\"Trung t\xE2m bowling\"},{\"English\":\"Restaurant\",\"VietNam\":\"Nh\xE0
+    h\xE0ng\"},{\"English\":\"New\",\"VietNam\":\"M\u1EDBi\"},{\"English\":\"MAX\",\"VietNam\":\"T\u1ED1i
+    \u0111a\"},{\"English\":\"Buy\",\"VietNam\":\"Mua\"},{\"English\":\"Time to sell\",\"VietNam\":\"Th\u1EDDi
+    gian ch\u1EDD b\xE1n:\"},{\"English\":\"Video Reward not ready, please try again...!\",\"VietNam\":\"Ph\u1EA7n
+    th\u01B0\u1EDFng video ch\u01B0a s\u1EB5n s\xE0ng, vui l\xF2ng th\u1EED l\u1EA1i
+    ...!\"},{\"English\":\"Not enought materal\",\"VietNam\":\"Kh\xF4ng \u0111\u1EE7
+    v\u1EADt li\u1EC7u!\"},{\"English\":\"Thank you!\",\"VietNam\":\"C\u1EA3m \u01A1n
+    b\u1EA1n!\"},{\"English\":\"Harbor\",\"VietNam\":\"H\u1EA3i c\u1EA3ng\"},{\"English\":\"Required
+    products:\",\"VietNam\":\"Y\xEAu c\u1EA7u c\xE1c s\u1EA3n ph\u1EA9m:\"},{\"English\":\"Home\",\"VietNam\":\"N\xF4ng
+    tr\u1EA1i\"},{\"English\":\"Expand\",\"VietNam\":\"M\u1EDF r\u1ED9ng\"},{\"English\":\"Finish\",\"VietNam\":\"Ho\xE0n
+    th\xE0nh\"},{\"English\":\"Next task will appear in:\",\"VietNam\":\"Nhi\u1EC7m
+    v\u1EE5 ti\u1EBFp theo s\u1EBD xu\u1EA5t hi\u1EC7n trong:\"},{\"English\":\"Mining\",\"VietNam\":\"Khai
+    th\xE1c m\u1ECF\"},{\"English\":\"Exploit\",\"VietNam\":\"Khai th\xE1c\"},{\"English\":\"Mining
+    Mines\",\"VietNam\":\"M\u1ECF khai th\xE1c\"},{\"English\":\"Please open the
+    previous map!\",\"VietNam\":\"Vui l\xF2ng m\u1EDF \xF4 \u0111\u1EA5t tr\u01B0\u1EDBc!\"},{\"English\":\"Ship
+    is shipping orders!\",\"VietNam\":\"T\xE0u \u0111ang v\u1EADn chuy\u1EC3n \u0111\u01A1n
+    h\xE0ng!\"},{\"English\":\"Pick an item\",\"VietNam\":\"Ch\u1ECDn s\u1EA3n ph\u1EA9m\"}]}"
+  lisJson:
+  - English: Congratulations!
+    VietNam: "Ch\xFAc m\u1EEBng b\u1EA1n !"
+  - English: You'ra reached level
+    VietNam: "B\u1EA1n \u0111\u1EA1t \u0111\u1EBFn c\u1EA5p \u0111\u1ED9"
+  - English: 'Your reward:'
+    VietNam: "Ph\u1EA7n th\u01B0\u1EDFng c\u1EE7a b\u1EA1n:"
+  - English: 'Now available:'
+    VietNam: "Hi\u1EC7n t\u1EA1i c\xF3 s\u1EB5n:"
+  - English: Not enough diamond!
+    VietNam: "Kh\xF4ng \u0111\u1EE7 kim c\u01B0\u01A1ng!"
+  - English: Gift
+    VietNam: "Qu\xE0"
+  - English: Buy more coin by video
+    VietNam: "Mua th\xEAm ti\u1EC1n b\u1EB1ng video"
+  - English: Claim
+    VietNam: "Nh\u1EADn th\u01B0\u1EDFng"
+  - English: Please accept all sales!
+    VietNam: "Vui l\xF2ng nh\u1EADn ti\u1EC1n c\u1EE7a c\xE1c s\u1EA3n ph\u1EA9m
+      \u0111\xE3 b\xE1n!"
+  - English: Not enough coin!
+    VietNam: "Kh\xF4ng \u0111\u1EE7 ti\u1EC1n!"
+  - English: The warehouse is full!
+    VietNam: "Kho \u0111\u1EA7y!"
+  - English: Please wait for the new sale!
+    VietNam: "Vui l\xF2ng ch\u1EDD l\u01B0\u1EE3t b\xE1n m\u1EDBi!"
+  - English: Products are on sale!
+    VietNam: "S\u1EA3n ph\u1EA9m \u0111ang \u0111\u01B0\u1EE3c b\xE1n!"
+  - English: Settings
+    VietNam: "C\xE0i \u0111\u1EB7t"
+  - English: Exit Game
+    VietNam: "Tho\xE1t tr\xF2 ch\u01A1i"
+  - English: Yes
+    VietNam: "C\xF3"
+  - English: No
+    VietNam: "Kh\xF4ng"
+  - English: Do you want exit game?
+    VietNam: "B\u1EA1n c\xF3 mu\u1ED1n tho\xE1t kh\u1ECFi tr\xF2 ch\u01A1i?"
+  - English: Expansion of arable land
+    VietNam: "M\u1EDF r\u1ED9ng \u0111\u1EA5t tr\u1ED3ng"
+  - English: You need enough materials below.
+    VietNam: "B\u1EA1n c\u1EA7n \u0111\u1EE7 c\xE1c v\u1EADt li\u1EC7u b\xEAn d\u01B0\u1EDBi."
+  - English: Loading...
+    VietNam: "\u0110ang t\u1EA3i..."
+  - English: Silo
+    VietNam: "Nh\xE0 L\u01B0\u01A1ng"
+  - English: Storage
+    VietNam: "Nh\xE0 Kho"
+  - English: Upgrade your storage
+    VietNam: "N\xE2ng c\u1EA5p"
+  - English: Max
+    VietNam: "T\u1ED1i \u0111a"
+  - English: Item for sale
+    VietNam: "B\xE1n v\u1EADt ph\u1EA9m"
+  - English: Load
+    VietNam: "Th\xEAm"
+  - English: Upgrade
+    VietNam: "N\xE2ng c\u1EA5p"
+  - English: Order table
+    VietNam: "\u0110\u01A1n h\xE0ng"
+  - English: Bonus
+    VietNam: "T\u1EB7ng k\xE8m"
+  - English: Achievements
+    VietNam: "Th\xE0nh t\u1EF1u"
+  - English: Not enough resuorces
+    VietNam: "Kh\xF4ng \u0111\u1EE7 d\u1EE5ng c\u1EE5"
+  - English: Free!
+    VietNam: "Mi\u1EC5n ph\xED"
+  - English: Buy more ingredients by video
+    VietNam: "Xem video \u0111\u1EC3 nh\u1EADn mi\u1EC5n ph\xED"
+  - English: Table Buy
+    VietNam: "Ch\u1EE3 mua h\xE0ng"
+  - English: Table Sell
+    VietNam: "Ch\u1EE3 b\xE1n h\xE0ng"
+  - English: New goods will be available at
+    VietNam: "H\xE0ng m\u1EDBi s\u1EBD c\xF3 s\u1EB5n sau:"
+  - English: Open next day
+    VietNam: "M\u1EDF c\u1EEDa v\xE0o ng\xE0y h\xF4m sau"
+  - English: Empty
+    VietNam: "Tr\u1ED1ng"
+  - English: Selling items take time, but all the goods will be sold eventually.
+    VietNam: "B\xE1n c\xE1c m\u1EB7t h\xE0ng c\u1EA7n c\xF3 th\u1EDDi gian, nh\u01B0ng
+      t\u1EA5t c\u1EA3 c\xE1c h\xE0ng h\xF3a s\u1EBD \u0111\u01B0\u1EE3c b\xE1n cu\u1ED1i
+      c\xF9ng."
+  - English: Speed up
+    VietNam: "T\u0103ng t\u1ED1c"
+  - English: Speed up free
+    VietNam: "T\u0103ng t\u1ED1c"
+  - English: Video reward
+    VietNam: "Ph\u1EA7n th\u01B0\u1EDFng video"
+  - English: Loading... please wait!
+    VietNam: "\u0110ang t\u1EA3i... vui l\xF2ng \u0111\u1EE3i!"
+  - English: SOLD
+    VietNam: "\u0110\xC3 B\xC1N"
+  - English: Unlock level
+    VietNam: "M\u1EDF kh\xF3a c\u1EA5p \u0111\u1ED9"
+  - English: Bought out
+    VietNam: "Mua l\u1EA1i"
+  - English: Take reward
+    VietNam: "Nh\u1EADn th\u01B0\u1EDFng"
+  - English: Cage is full!
+    VietNam: "Chu\u1ED3ng \u0111\xE3 \u0111\u1EA7y!"
+  - English: Not enough food to feed!
+    VietNam: "Kh\xF4ng \u0111\u1EE7 th\u1EE9c \u0103n!"
+  - English: Car is shipping orders!
+    VietNam: "Xe \u0111ang tr\xEAn \u0111\u01B0\u1EDDng v\u1EADn chuy\u1EC3n \u0111\u01A1n
+      h\xE0ng!"
+  - English: Not enough production materials!
+    VietNam: "Kh\xF4ng \u0111\u1EE7 nguy\xEAn li\u1EC7u"
+  - English: Not enought coin!
+    VietNam: "Kh\xF4ng \u0111\u1EE7 ti\u1EC1n xu!"
+  - English: Not enough space!
+    VietNam: "Kh\xF4ng \u0111\u1EE7 kho\u1EA3ng tr\u1ED1ng!"
+  - English: Not enough coin to planting!
+    VietNam: "Kh\xF4ng \u0111\u1EE7 ti\u1EC1n \u0111\u1EC3 tr\u1ED3ng!"
+  - English: Not enought diamond!
+    VietNam: "Kh\xF4ng \u0111\u1EE7 kim c\u01B0\u01A1ng!"
+  - English: Please complete the order!
+    VietNam: "Vui l\xF2ng ho\xE0n th\xE0nh \u0111\u01A1n h\xE0ng!"
+  - English: Please try again...!
+    VietNam: "Vui l\xF2ng th\u1EED l\u1EA1i...!"
+  - English: Something wrong, please try again...!
+    VietNam: "Xin vui l\xF2ng th\u1EED l\u1EA1i...!"
+  - English: Not enought materal!
+    VietNam: "Kh\xF4ng \u0111\u1EE7 nguy\xEAn li\u1EC7u"
+  - English: Not enough coin to buy!
+    VietNam: "Kh\xF4ng \u0111\u1EE7 ti\u1EC1n \u0111\u1EC3 mua!"
+  - English: Schools
+    VietNam: "Tr\u01B0\u1EDDng h\u1ECDc"
+  - English: Jewelry Shop
+    VietNam: "C\u1EEDa h\xE0ng trang s\u1EE9c"
+  - English: Grocery Store
+    VietNam: "C\u1EEDa h\xE0ng t\u1EA1p h\xF3a"
+  - English: Eatery
+    VietNam: "Qu\xE1n \u0103n"
+  - English: Flower Shop
+    VietNam: "C\u1EEDa h\xE0ng hoa"
+  - English: Clothing Store
+    VietNam: "C\u1EEDa h\xE0ng qu\u1EA7n \xE1o"
+  - English: City Hall
+    VietNam: "To\xE0 th\u1ECB ch\xEDnh"
+  - English: Bowling center
+    VietNam: "Trung t\xE2m bowling"
+  - English: Restaurant
+    VietNam: "Nh\xE0 h\xE0ng"
+  - English: New
+    VietNam: "M\u1EDBi"
+  - English: MAX
+    VietNam: "T\u1ED1i \u0111a"
+  - English: Buy
+    VietNam: Mua
+  - English: Time to sell
+    VietNam: "Th\u1EDDi gian ch\u1EDD b\xE1n:"
+  - English: Video Reward not ready, please try again...!
+    VietNam: "Ph\u1EA7n th\u01B0\u1EDFng video ch\u01B0a s\u1EB5n s\xE0ng, vui l\xF2ng
+      th\u1EED l\u1EA1i ...!"
+  - English: Not enought materal
+    VietNam: "Kh\xF4ng \u0111\u1EE7 v\u1EADt li\u1EC7u!"
+  - English: Thank you!
+    VietNam: "C\u1EA3m \u01A1n b\u1EA1n!"
+  - English: Harbor
+    VietNam: "H\u1EA3i c\u1EA3ng"
+  - English: 'Required products:'
+    VietNam: "Y\xEAu c\u1EA7u c\xE1c s\u1EA3n ph\u1EA9m:"
+  - English: Home
+    VietNam: "N\xF4ng tr\u1EA1i"
+  - English: Expand
+    VietNam: "M\u1EDF r\u1ED9ng"
+  - English: Finish
+    VietNam: "Ho\xE0n th\xE0nh"
+  - English: 'Next task will appear in:'
+    VietNam: "Nhi\u1EC7m v\u1EE5 ti\u1EBFp theo s\u1EBD xu\u1EA5t hi\u1EC7n trong:"
+  - English: Mining
+    VietNam: "Khai th\xE1c m\u1ECF"
+  - English: Exploit
+    VietNam: "Khai th\xE1c"
+  - English: Mining Mines
+    VietNam: "M\u1ECF khai th\xE1c"
+  - English: Please open the previous map!
+    VietNam: "Vui l\xF2ng m\u1EDF \xF4 \u0111\u1EA5t tr\u01B0\u1EDBc!"
+  - English: Ship is shipping orders!
+    VietNam: "T\xE0u \u0111ang v\u1EADn chuy\u1EC3n \u0111\u01A1n h\xE0ng!"
+  - English: Pick an item
+    VietNam: "Ch\u1ECDn s\u1EA3n ph\u1EA9m"

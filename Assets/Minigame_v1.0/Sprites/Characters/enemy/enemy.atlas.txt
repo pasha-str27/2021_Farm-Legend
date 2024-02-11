@@ -1,0 +1,41 @@
+
+enemy.png
+size: 172,136
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chan
+  rotate: true
+  xy: 158, 104
+  size: 30, 12
+  orig: 32, 14
+  offset: 1, 1
+  index: -1
+dau
+  rotate: true
+  xy: 64, 51
+  size: 83, 92
+  orig: 85, 94
+  offset: 1, 1
+  index: -1
+tay1
+  rotate: true
+  xy: 2, 4
+  size: 130, 60
+  orig: 132, 62
+  offset: 1, 1
+  index: -1
+tay2
+  rotate: false
+  xy: 132, 5
+  size: 17, 44
+  orig: 19, 46
+  offset: 1, 1
+  index: -1
+than
+  rotate: true
+  xy: 64, 2
+  size: 47, 66
+  orig: 49, 68
+  offset: 1, 1
+  index: -1

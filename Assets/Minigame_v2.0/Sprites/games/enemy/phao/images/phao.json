@@ -1,0 +1,101 @@
+{
+"skeleton": {
+	"hash": "cGjMg8Nb9MRidFCMLl1D1pz2SMg",
+	"spine": "3.8",
+	"x": -87.72,
+	"y": -1.4,
+	"width": 159.15,
+	"height": 125.29,
+	"images": "./images/",
+	"audio": "G:/Msoft/2021/phucdv/02 Progress/T_11/minigame_rutque/phao"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 92.81, "rotation": -178.2, "x": 45.32, "y": 85.12 },
+	{ "name": "de", "parent": "root", "length": 36.23, "rotation": 92.63, "x": 18.28, "y": 9.41 }
+],
+"slots": [
+	{ "name": "de", "bone": "de", "attachment": "de" },
+	{ "name": "long", "bone": "bone", "attachment": "long" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"de": {
+				"de": { "x": 18.56, "y": 7.51, "rotation": -92.63, "width": 123, "height": 58 }
+			},
+			"long": {
+				"long": { "x": 54.9, "y": -0.7, "rotation": 178.42, "width": 156, "height": 79 }
+			}
+		}
+	}
+],
+"animations": {
+	"ban": {
+		"slots": {
+			"de": {
+				"attachment": [
+					{ "name": "de" },
+					{ "time": 0.1667, "name": "de" },
+					{ "time": 0.6667, "name": "de" },
+					{ "time": 0.8333, "name": "de" }
+				]
+			},
+			"long": {
+				"attachment": [
+					{ "name": "long" }
+				]
+			}
+		},
+		"bones": {
+			"de": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667, "curve": "stepped" },
+					{ "time": 0.6667, "curve": "stepped" },
+					{ "time": 0.8333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": -2.24, "curve": "stepped" },
+					{ "time": 0.6667, "x": -2.24 },
+					{ "time": 0.8333 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667, "curve": "stepped" },
+					{ "time": 0.6667, "curve": "stepped" },
+					{ "time": 0.8333 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": -1.3, "curve": "stepped" },
+					{ "time": 0.6667, "angle": -1.3 },
+					{ "time": 0.8333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": 10.46, "curve": "stepped" },
+					{ "time": 0.6667, "x": 10.46 },
+					{ "time": 0.8333 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.1667, "curve": "stepped" },
+					{ "time": 0.6667, "curve": "stepped" },
+					{ "time": 0.8333 }
+				]
+			}
+		},
+		"drawOrder": [
+			{},
+			{ "time": 0.1667 },
+			{ "time": 0.6667 },
+			{ "time": 0.8333 }
+		]
+	}
+}
+}

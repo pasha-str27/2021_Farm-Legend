@@ -1,0 +1,20 @@
+
+phao.png
+size: 139,158
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+de
+  rotate: true
+  xy: 81, 35
+  size: 121, 56
+  orig: 123, 58
+  offset: 1, 1
+  index: -1
+long
+  rotate: true
+  xy: 2, 2
+  size: 154, 77
+  orig: 156, 79
+  offset: 1, 1
+  index: -1

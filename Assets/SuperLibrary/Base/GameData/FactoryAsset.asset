@@ -1,0 +1,607 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f4b36f93d992c94b8c4df8ef56368f3, type: 3}
+  m_Name: FactoryAsset
+  m_EditorClassIdentifier: 
+  useRandom: 0
+  list:
+  - name: Bakery
+    id: 0
+    idThumb: 
+    index: 0
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Bread
+    - Corn Bread
+    - Pancake
+    - Cookies
+    - Croissant
+    - Tortilla
+    - Waffle
+  - name: Food Processor
+    id: 1
+    idThumb: 
+    index: 1
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Bird Feed
+    - Cow Feed
+    - Feed for bee
+    - Pig Feed
+    - Sheep Feed
+  - name: Dairy
+    id: 2
+    idThumb: 
+    index: 2
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Cream
+    - Butter
+    - Strawberry Yogurt
+    - Cheese
+    - Strawberry Ice Cream
+    - Chocolate Ice Cream
+  - name: Corn Oven
+    id: 3
+    idThumb: 
+    index: 3
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Cornflakes
+    - Cherry Cornflakes
+    - Chocolate Flakes
+    - Popcorn
+  - name: Sugar Processor
+    id: 4
+    idThumb: 
+    index: 4
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - White Sugar
+    - Brown Sugar
+  - name: Pie Bakery
+    id: 5
+    idThumb: 
+    index: 5
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Apple Cakes
+    - Cabbage Pie
+    - Shepherds Pie
+    - Pumpkin Pie
+    - Blueberry Pie
+    - Lemon Pie
+  - name: Accessories
+    id: 6
+    idThumb: 
+    index: 6
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Peacock fan
+    - Ostrich feather fan
+    - Luxury fan
+    - Bag of feathers
+    - Peacock feather hair clip
+    - Earrings
+  - name: Sushi shop
+    id: 7
+    idThumb: 
+    index: 7
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Noodles
+    - Sushi
+    - Sushi Rolls
+    - Soy Sauce
+    - Tofu
+  - name: Roaster
+    id: 8
+    idThumb: 
+    index: 8
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Burger
+    - French Fries
+    - Toast
+    - teak
+    - Hotdog
+    - Fried fish
+  - name: Cake Bakery
+    id: 9
+    idThumb: 
+    index: 9
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Carrot Cake
+    - Cheese Cake
+    - Cream Cake
+    - Donut
+  - name: Coffe Machine
+    id: 10
+    idThumb: 
+    index: 10
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Black Coffe
+    - Cappuccino
+    - Hot Chocolate
+    - Latte
+  - name: Flower Factory
+    id: 11
+    idThumb: 
+    index: 11
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Field Bouquet
+    - Lilac Bouquet
+    - Night Paris Bouquet
+    - Romantic Bouquet
+    - Sweet Bouquet
+    - Wedding Bouquet
+    - Wreath
+  - name: Goldsmith
+    id: 12
+    idThumb: 
+    index: 12
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Diamond Bracelet
+    - Diamond Ring
+    - Emerald Ring
+    - Gold Bracelet
+    - Platinum Necklace
+    - Silver Ring
+  - name: Hats
+    id: 13
+    idThumb: 
+    index: 13
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Beach Hat
+    - Capitolium
+    - Cute Hat
+    - Evening Hat
+    - Hat Selfish
+    - Hat With Wildflowers
+    - Summer Hat
+    - Turban
+    - Wedding Hat
+  - name: Knitting Table
+    id: 14
+    idThumb: 
+    index: 14
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Pants
+    - Shirt
+    - Tshirt
+  - name: Paint Factory
+    id: 15
+    idThumb: 
+    index: 15
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Pink Paint
+    - Red Paint
+    - White Paint
+  - name: Paper Factory
+    id: 16
+    idThumb: 
+    index: 16
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Pink Paper
+    - Red Paper
+    - White Paper
+    - Yellow Paper
+  - name: Sewing Table
+    id: 17
+    idThumb: 
+    index: 17
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Knit Hat
+    - Sweater
+  - name: Smelter
+    id: 18
+    idThumb: 
+    index: 18
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Gold Ingot
+    - Platium Ingot
+    - Silver Ingot
+  - name: Blender
+    id: 19
+    idThumb: 
+    index: 19
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Cherry Smoothies
+    - Chocolate Milkshake
+    - Rasberry Cocktail
+    - Strawberry Smoothies
+  - name: Candy Factory
+    id: 20
+    idThumb: 
+    index: 20
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Chocolate
+    - Cotton Candy
+    - Lollipop
+    - Marshmallow
+  - name: Cream Freezer
+    id: 21
+    idThumb: 
+    index: 21
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Apple Ice
+    - Capuccino Freeze
+    - Icecream Sandwich
+    - Latte Freeze
+    - Lemon Ice
+  - name: Jam Factory
+    id: 22
+    idThumb: 
+    index: 22
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Apple Jam
+    - Cherry Jam
+    - Strawberry Jam
+  - name: Juicer
+    id: 23
+    idThumb: 
+    index: 23
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Apple Juice
+    - Lemonade
+    - Orange Juice
+    - Tomato Juice
+  - name: Mexican Food
+    id: 24
+    idThumb: 
+    index: 24
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Burrito
+    - Cheese Nachos
+    - Enchiladas
+    - Nachos
+    - Quesadilla
+    - Tacos
+  - name: Pizza Oven
+    id: 25
+    idThumb: 
+    index: 25
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Desert Pizza
+    - Pepperoni Pizza
+    - Pizza Margerita
+    - Seafood Pizza
+  - name: Wok
+    id: 26
+    idThumb: 
+    index: 26
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    nameV: 
+    products:
+    - Fish Noodles
+    - Park Noodles
+    - Vegan Noodles
+  data_json: '{"factoryDatas":[{"name":"Bakery","products":"Bread,Corn Bread,Pancake,Cookies,Croissant,Tortilla,Waffle"},{"name":"Food
+    Processor","products":"Bird Feed,Cow Feed,Feed for bee,Pig Feed,Sheep Feed"},{"name":"Dairy","products":"Cream,Butter,Strawberry
+    Yogurt,Cheese,Strawberry Ice Cream,Chocolate Ice Cream"},{"name":"Corn Oven","products":"Cornflakes,Cherry
+    Cornflakes,Chocolate Flakes,Popcorn"},{"name":"Sugar Processor","products":"White
+    Sugar,Brown Sugar"},{"name":"Pie Bakery","products":"Apple Cakes,Cabbage Pie,Shepherds
+    Pie,Pumpkin Pie,Blueberry Pie,Lemon Pie"},{"name":"Accessories","products":"Peacock
+    fan,Ostrich feather fan,Luxury fan,Bag of feathers,Peacock feather hair clip,Earrings"},{"name":"Sushi
+    shop","products":"Noodles,Sushi,Sushi Rolls,Soy Sauce,Tofu"},{"name":"Roaster","products":"Burger,French
+    Fries,Toast,teak,Hotdog,Fried fish"},{"name":"Cake Bakery","products":"Carrot
+    Cake,Cheese Cake,Cream Cake,Donut"},{"name":"Coffe Machine","products":"Black
+    Coffe,Cappuccino,Hot Chocolate,Latte"},{"name":"Flower Factory","products":"Field
+    Bouquet,Lilac Bouquet,Night Paris Bouquet,Romantic Bouquet,Sweet Bouquet,Wedding
+    Bouquet,Wreath"},{"name":"Goldsmith","products":"Diamond Bracelet,Diamond Ring,Emerald
+    Ring,Gold Bracelet,Platinum Necklace,Silver Ring"},{"name":"Hats","products":"Beach
+    Hat,Capitolium,Cute Hat,Evening Hat,Hat Selfish,Hat With Wildflowers,Summer Hat,Turban,Wedding
+    Hat"},{"name":"Knitting Table","products":"Pants,Shirt,Tshirt"},{"name":"Paint
+    Factory","products":"Pink Paint,Red Paint,White Paint"},{"name":"Paper Factory","products":"Pink
+    Paper,Red Paper,White Paper,Yellow Paper"},{"name":"Sewing Table","products":"Knit
+    Hat,Sweater"},{"name":"Smelter","products":"Gold Ingot,Platium Ingot,Silver Ingot"},{"name":"Blender","products":"Cherry
+    Smoothies,Chocolate Milkshake,Rasberry Cocktail,Strawberry Smoothies"},{"name":"Candy
+    Factory","products":"Chocolate,Cotton Candy,Lollipop,Marshmallow"},{"name":"Cream
+    Freezer","products":"Apple Ice,Capuccino Freeze,Icecream Sandwich,Latte Freeze,Lemon
+    Ice"},{"name":"Jam Factory","products":"Apple Jam,Cherry Jam,Strawberry Jam"},{"name":"Juicer","products":"Apple
+    Juice,Lemonade,Orange Juice,Tomato Juice"},{"name":"Mexican Food","products":"Burrito,Cheese
+    Nachos,Enchiladas,Nachos,Quesadilla,Tacos"},{"name":"Pizza Oven","products":"Desert
+    Pizza,Pepperoni Pizza,Pizza Margerita,Seafood Pizza"},{"name":"Wok","products":"Fish
+    Noodles,Park Noodles,Vegan Noodles"}]}'
+  lisJson:
+  - name: Bakery
+    nameV: 
+    products: Bread,Corn Bread,Pancake,Cookies,Croissant,Tortilla,Waffle
+  - name: Food Processor
+    nameV: 
+    products: Bird Feed,Cow Feed,Feed for bee,Pig Feed,Sheep Feed
+  - name: Dairy
+    nameV: 
+    products: Cream,Butter,Strawberry Yogurt,Cheese,Strawberry Ice Cream,Chocolate
+      Ice Cream
+  - name: Corn Oven
+    nameV: 
+    products: Cornflakes,Cherry Cornflakes,Chocolate Flakes,Popcorn
+  - name: Sugar Processor
+    nameV: 
+    products: White Sugar,Brown Sugar
+  - name: Pie Bakery
+    nameV: 
+    products: Apple Cakes,Cabbage Pie,Shepherds Pie,Pumpkin Pie,Blueberry Pie,Lemon
+      Pie
+  - name: Accessories
+    nameV: 
+    products: Peacock fan,Ostrich feather fan,Luxury fan,Bag of feathers,Peacock
+      feather hair clip,Earrings
+  - name: Sushi shop
+    nameV: 
+    products: Noodles,Sushi,Sushi Rolls,Soy Sauce,Tofu
+  - name: Roaster
+    nameV: 
+    products: Burger,French Fries,Toast,teak,Hotdog,Fried fish
+  - name: Cake Bakery
+    nameV: 
+    products: Carrot Cake,Cheese Cake,Cream Cake,Donut
+  - name: Coffe Machine
+    nameV: 
+    products: Black Coffe,Cappuccino,Hot Chocolate,Latte
+  - name: Flower Factory
+    nameV: 
+    products: Field Bouquet,Lilac Bouquet,Night Paris Bouquet,Romantic Bouquet,Sweet
+      Bouquet,Wedding Bouquet,Wreath
+  - name: Goldsmith
+    nameV: 
+    products: Diamond Bracelet,Diamond Ring,Emerald Ring,Gold Bracelet,Platinum Necklace,Silver
+      Ring
+  - name: Hats
+    nameV: 
+    products: Beach Hat,Capitolium,Cute Hat,Evening Hat,Hat Selfish,Hat With Wildflowers,Summer
+      Hat,Turban,Wedding Hat
+  - name: Knitting Table
+    nameV: 
+    products: Pants,Shirt,Tshirt
+  - name: Paint Factory
+    nameV: 
+    products: Pink Paint,Red Paint,White Paint
+  - name: Paper Factory
+    nameV: 
+    products: Pink Paper,Red Paper,White Paper,Yellow Paper
+  - name: Sewing Table
+    nameV: 
+    products: Knit Hat,Sweater
+  - name: Smelter
+    nameV: 
+    products: Gold Ingot,Platium Ingot,Silver Ingot
+  - name: Blender
+    nameV: 
+    products: Cherry Smoothies,Chocolate Milkshake,Rasberry Cocktail,Strawberry Smoothies
+  - name: Candy Factory
+    nameV: 
+    products: Chocolate,Cotton Candy,Lollipop,Marshmallow
+  - name: Cream Freezer
+    nameV: 
+    products: Apple Ice,Capuccino Freeze,Icecream Sandwich,Latte Freeze,Lemon Ice
+  - name: Jam Factory
+    nameV: 
+    products: Apple Jam,Cherry Jam,Strawberry Jam
+  - name: Juicer
+    nameV: 
+    products: Apple Juice,Lemonade,Orange Juice,Tomato Juice
+  - name: Mexican Food
+    nameV: 
+    products: Burrito,Cheese Nachos,Enchiladas,Nachos,Quesadilla,Tacos
+  - name: Pizza Oven
+    nameV: 
+    products: Desert Pizza,Pepperoni Pizza,Pizza Margerita,Seafood Pizza
+  - name: Wok
+    nameV: 
+    products: Fish Noodles,Park Noodles,Vegan Noodles

@@ -1,0 +1,407 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b47522f34cd764fb70cc4ce63932a5, type: 3}
+  m_Name: AchievementAsset
+  m_EditorClassIdentifier: 
+  useRandom: 0
+  list:
+  - name: Great Farmer
+    id: 0
+    idThumb: 
+    index: 0
+    description: Collect crops
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 100
+    unlockPay: 0
+    nameV: "Ng\u01B0\u1EDDi n\xF4ng d\xE2n v\u0129 \u0111\u1EA1i"
+    descriptionV: "Thu th\u1EADp c\xE2y tr\u1ED3ng"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: Pet Friend
+    id: 1
+    idThumb: 
+    index: 1
+    description: Produce pet feed
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 30
+    unlockPay: 0
+    nameV: "Ng\u01B0\u1EDDi b\u1EA1n th\xFA c\u01B0ng"
+    descriptionV: "S\u1EA3n xu\u1EA5t th\u1EE9c \u0103n cho v\u1EADt nu\xF4i"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: Milkman
+    id: 2
+    idThumb: 
+    index: 2
+    description: Make dary product
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 20
+    unlockPay: 0
+    nameV: "Ng\u01B0\u1EDDi giao s\u1EEFa"
+    descriptionV: "L\xE0m s\u1EA3n ph\u1EA9m t\u1EEB s\u1EEFa"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: Friendly host
+    id: 3
+    idThumb: 
+    index: 3
+    description: Trade with them farm's guests
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 10
+    unlockPay: 0
+    nameV: "Ch\u1EE7 nh\xE0 th\xE2n thi\u1EC7n"
+    descriptionV: "Giao d\u1ECBch v\u1EDBi kh\xE1ch c\u1EE7a trang tr\u1EA1i"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: Birdcatcher
+    id: 4
+    idThumb: 
+    index: 4
+    description: Collect eggs
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 5
+    unlockPay: 0
+    nameV: "Ng\u01B0\u1EDDi b\u1EAFt chim"
+    descriptionV: "Thu th\u1EADp tr\u1EE9ng"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: Cowboy
+    id: 5
+    idThumb: 
+    index: 5
+    description: Collect milk
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 20
+    unlockPay: 0
+    nameV: "Cao b\u1ED3i"
+    descriptionV: "Thu th\u1EADp s\u1EEFa"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: Swineherd
+    id: 6
+    idThumb: 
+    index: 6
+    description: Collect bacon
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 30
+    unlockPay: 0
+    nameV: "Ng\u01B0\u1EDDi ch\u0103n l\u1EE3n"
+    descriptionV: "Thu th\u1EADp th\u1ECBt x\xF4ng kh\xF3i"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: Wool cutter
+    id: 7
+    idThumb: 
+    index: 7
+    description: Collect wool
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 30
+    unlockPay: 0
+    nameV: "M\xE1y c\u1EAFt len"
+    descriptionV: "Thu th\u1EADp l\xF4ng c\u1EEBu"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: Baker
+    id: 8
+    idThumb: 
+    index: 8
+    description: Bake bread
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 1
+    unlockPay: 0
+    nameV: "Th\u1EE3 l\xE0m b\xE1nh"
+    descriptionV: "B\xE1nh m\xEC n\u01B0\u1EDBng"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: Tailor
+    id: 9
+    idThumb: 
+    index: 9
+    description: Produce clother
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 2
+    unlockPay: 0
+    nameV: "Th\u01A1 may"
+    descriptionV: "S\u1EA3n xu\u1EA5t qu\u1EA7n \xE1o"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: Trader
+    id: 10
+    idThumb: 
+    index: 10
+    description: Deliver the goods
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 2
+    unlockPay: 0
+    nameV: "Ng\u01B0\u1EDDi giao d\u1ECBch"
+    descriptionV: "Giao h\xE0ng"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: To the movies
+    id: 11
+    idThumb: 
+    index: 11
+    description: Produce pop-corn
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 30
+    unlockPay: 0
+    nameV: "\u0110i xem phim"
+    descriptionV: "S\u1EA3n xu\u1EA5t b\u1EAFp ng\xF4"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: Hot topic
+    id: 12
+    idThumb: 
+    index: 12
+    description: Produce the snacks
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 40
+    unlockPay: 0
+    nameV: "Ch\u1EE7 \u0111\u1EC1 n\xF3ng"
+    descriptionV: "S\u1EA3n xu\u1EA5t \u0111\u1ED3 \u0103n nh\u1EB9"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: Going Mexican
+    id: 13
+    idThumb: 
+    index: 13
+    description: Produce Mexican food
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 45
+    unlockPay: 0
+    nameV: "\u0110i Mexico"
+    descriptionV: "S\u1EA3n xu\u1EA5t th\u1EE9c \u0103n Mexico"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - name: Mr. President
+    id: 14
+    idThumb: 
+    index: 14
+    description: Cut down cherry trees
+    unlockType: 2
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 3
+    unlockPay: 0
+    nameV: "Ng\xE0i ch\u1EE7 t\u1ECBch"
+    descriptionV: "Ch\u1EB7t c\xE2y anh \u0111\xE0o"
+    exp: 5
+    diamond: 2
+    icon: {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  numMax: 0.5
+  numExp: 0.5
+  numDiamond: 0.2
+  data_json: "{\"dataAchievement\":[{\"name\":\"Great Farmer\",\"nameV\":\"Ng\u01B0\u1EDDi
+    n\xF4ng d\xE2n v\u0129 \u0111\u1EA1i\",\"des\":\"Collect crops\",\"desV\":\"Thu
+    th\u1EADp c\xE2y tr\u1ED3ng\",\"count\":100,\"exp\":5,\"diamond\":2},{\"name\":\"Pet
+    Friend\",\"nameV\":\"Ng\u01B0\u1EDDi b\u1EA1n th\xFA c\u01B0ng\",\"des\":\"Produce
+    pet feed\",\"desV\":\"S\u1EA3n xu\u1EA5t th\u1EE9c \u0103n cho v\u1EADt nu\xF4i\",\"count\":30,\"exp\":5,\"diamond\":2},{\"name\":\"Milkman\",\"nameV\":\"Ng\u01B0\u1EDDi
+    giao s\u1EEFa\",\"des\":\"Make dary product\",\"desV\":\"L\xE0m s\u1EA3n ph\u1EA9m
+    t\u1EEB s\u1EEFa\",\"count\":20,\"exp\":5,\"diamond\":2},{\"name\":\"Friendly
+    host\",\"nameV\":\"Ch\u1EE7 nh\xE0 th\xE2n thi\u1EC7n\",\"des\":\"Trade with
+    them farm's guests\",\"desV\":\"Giao d\u1ECBch v\u1EDBi kh\xE1ch c\u1EE7a trang
+    tr\u1EA1i\",\"count\":10,\"exp\":5,\"diamond\":2},{\"name\":\"Birdcatcher\",\"nameV\":\"Ng\u01B0\u1EDDi
+    b\u1EAFt chim\",\"des\":\"Collect eggs\",\"desV\":\"Thu th\u1EADp tr\u1EE9ng\",\"count\":5,\"exp\":5,\"diamond\":2},{\"name\":\"Cowboy\",\"nameV\":\"Cao
+    b\u1ED3i\",\"des\":\"Collect milk\",\"desV\":\"Thu th\u1EADp s\u1EEFa\",\"count\":20,\"exp\":5,\"diamond\":2},{\"name\":\"Swineherd\",\"nameV\":\"Ng\u01B0\u1EDDi
+    ch\u0103n l\u1EE3n\",\"des\":\"Collect bacon\",\"desV\":\"Thu th\u1EADp th\u1ECBt
+    x\xF4ng kh\xF3i\",\"count\":30,\"exp\":5,\"diamond\":2},{\"name\":\"Wool cutter\",\"nameV\":\"M\xE1y
+    c\u1EAFt len\",\"des\":\"Collect wool\",\"desV\":\"Thu th\u1EADp l\xF4ng c\u1EEBu\",\"count\":30,\"exp\":5,\"diamond\":2},{\"name\":\"Baker\",\"nameV\":\"Th\u1EE3
+    l\xE0m b\xE1nh\",\"des\":\"Bake bread\",\"desV\":\"B\xE1nh m\xEC n\u01B0\u1EDBng\",\"count\":1,\"exp\":5,\"diamond\":2},{\"name\":\"Tailor\",\"nameV\":\"Th\u01A1
+    may\",\"des\":\"Produce clother\",\"desV\":\"S\u1EA3n xu\u1EA5t qu\u1EA7n \xE1o\",\"count\":2,\"exp\":5,\"diamond\":2},{\"name\":\"Trader\",\"nameV\":\"Ng\u01B0\u1EDDi
+    giao d\u1ECBch\",\"des\":\"Deliver the goods\",\"desV\":\"Giao h\xE0ng\",\"count\":2,\"exp\":5,\"diamond\":2},{\"name\":\"To
+    the movies\",\"nameV\":\"\u0110i xem phim\",\"des\":\"Produce pop-corn\",\"desV\":\"S\u1EA3n
+    xu\u1EA5t b\u1EAFp ng\xF4\",\"count\":30,\"exp\":5,\"diamond\":2},{\"name\":\"Hot
+    topic\",\"nameV\":\"Ch\u1EE7 \u0111\u1EC1 n\xF3ng\",\"des\":\"Produce the snacks\",\"desV\":\"S\u1EA3n
+    xu\u1EA5t \u0111\u1ED3 \u0103n nh\u1EB9\",\"count\":40,\"exp\":5,\"diamond\":2},{\"name\":\"Going
+    Mexican\",\"nameV\":\"\u0110i Mexico\",\"des\":\"Produce Mexican food\",\"desV\":\"S\u1EA3n
+    xu\u1EA5t th\u1EE9c \u0103n Mexico\",\"count\":45,\"exp\":5,\"diamond\":2},{\"name\":\"Mr.
+    President\",\"nameV\":\"Ng\xE0i ch\u1EE7 t\u1ECBch\",\"des\":\"Cut down cherry
+    trees\",\"desV\":\"Ch\u1EB7t c\xE2y anh \u0111\xE0o\",\"count\":3,\"exp\":5,\"diamond\":2}]}"
+  lisJson:
+  - name: Great Farmer
+    nameV: "Ng\u01B0\u1EDDi n\xF4ng d\xE2n v\u0129 \u0111\u1EA1i"
+    des: Collect crops
+    desV: "Thu th\u1EADp c\xE2y tr\u1ED3ng"
+    count: 100
+    exp: 5
+    diamond: 2
+  - name: Pet Friend
+    nameV: "Ng\u01B0\u1EDDi b\u1EA1n th\xFA c\u01B0ng"
+    des: Produce pet feed
+    desV: "S\u1EA3n xu\u1EA5t th\u1EE9c \u0103n cho v\u1EADt nu\xF4i"
+    count: 30
+    exp: 5
+    diamond: 2
+  - name: Milkman
+    nameV: "Ng\u01B0\u1EDDi giao s\u1EEFa"
+    des: Make dary product
+    desV: "L\xE0m s\u1EA3n ph\u1EA9m t\u1EEB s\u1EEFa"
+    count: 20
+    exp: 5
+    diamond: 2
+  - name: Friendly host
+    nameV: "Ch\u1EE7 nh\xE0 th\xE2n thi\u1EC7n"
+    des: Trade with them farm's guests
+    desV: "Giao d\u1ECBch v\u1EDBi kh\xE1ch c\u1EE7a trang tr\u1EA1i"
+    count: 10
+    exp: 5
+    diamond: 2
+  - name: Birdcatcher
+    nameV: "Ng\u01B0\u1EDDi b\u1EAFt chim"
+    des: Collect eggs
+    desV: "Thu th\u1EADp tr\u1EE9ng"
+    count: 5
+    exp: 5
+    diamond: 2
+  - name: Cowboy
+    nameV: "Cao b\u1ED3i"
+    des: Collect milk
+    desV: "Thu th\u1EADp s\u1EEFa"
+    count: 20
+    exp: 5
+    diamond: 2
+  - name: Swineherd
+    nameV: "Ng\u01B0\u1EDDi ch\u0103n l\u1EE3n"
+    des: Collect bacon
+    desV: "Thu th\u1EADp th\u1ECBt x\xF4ng kh\xF3i"
+    count: 30
+    exp: 5
+    diamond: 2
+  - name: Wool cutter
+    nameV: "M\xE1y c\u1EAFt len"
+    des: Collect wool
+    desV: "Thu th\u1EADp l\xF4ng c\u1EEBu"
+    count: 30
+    exp: 5
+    diamond: 2
+  - name: Baker
+    nameV: "Th\u1EE3 l\xE0m b\xE1nh"
+    des: Bake bread
+    desV: "B\xE1nh m\xEC n\u01B0\u1EDBng"
+    count: 1
+    exp: 5
+    diamond: 2
+  - name: Tailor
+    nameV: "Th\u01A1 may"
+    des: Produce clother
+    desV: "S\u1EA3n xu\u1EA5t qu\u1EA7n \xE1o"
+    count: 2
+    exp: 5
+    diamond: 2
+  - name: Trader
+    nameV: "Ng\u01B0\u1EDDi giao d\u1ECBch"
+    des: Deliver the goods
+    desV: "Giao h\xE0ng"
+    count: 2
+    exp: 5
+    diamond: 2
+  - name: To the movies
+    nameV: "\u0110i xem phim"
+    des: Produce pop-corn
+    desV: "S\u1EA3n xu\u1EA5t b\u1EAFp ng\xF4"
+    count: 30
+    exp: 5
+    diamond: 2
+  - name: Hot topic
+    nameV: "Ch\u1EE7 \u0111\u1EC1 n\xF3ng"
+    des: Produce the snacks
+    desV: "S\u1EA3n xu\u1EA5t \u0111\u1ED3 \u0103n nh\u1EB9"
+    count: 40
+    exp: 5
+    diamond: 2
+  - name: Going Mexican
+    nameV: "\u0110i Mexico"
+    des: Produce Mexican food
+    desV: "S\u1EA3n xu\u1EA5t th\u1EE9c \u0103n Mexico"
+    count: 45
+    exp: 5
+    diamond: 2
+  - name: Mr. President
+    nameV: "Ng\xE0i ch\u1EE7 t\u1ECBch"
+    des: Cut down cherry trees
+    desV: "Ch\u1EB7t c\xE2y anh \u0111\xE0o"
+    count: 3
+    exp: 5
+    diamond: 2
+  spIcon:
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}
+  - {fileID: 21300000, guid: 3c431f60558862d4289a08dc932ceccf, type: 3}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf7accc84dd17c42b2b7144143c1f2d, type: 3}
+  m_Name: ConfigAsset
+  m_EditorClassIdentifier: Assembly-CSharp::ConfigData
+  gameConfig:
+    timePlayToShowAds: 30
+    timePlayReduceToShowAds: 0
+    rebornType: 0
+    rebornBy: 3
+    suggestUpdateVersion: 0
+    adRewardNotToInter: 1
+    adInterNotToReward: 1
+    adInterViewToReward: 5
+    timeActiveMove: 1
+    _coinByAds: 150
+    CoinBase: 100
+    mutil: 0.2
+    DiamondBase: 10
+    coinUnlockMap: 100
+    countMaterialBase: 3
+    BaseDiamondTime: 120
+    BaseStoreUpgrade: 15
+    BaseStoreSlilo: 70
+    BaseStoreStorage: 70
+    maxOrder: 9
+    mutilUpgradeStore: 0.5
+    MaxLand: 100
+    NumHarvestOldTree: 3
+    NumUnlockLand: 4
+    percentRandomMaterial: 15
+    timeSaleMarket: 60
+    numTimePersent: 60
+    LevelUnlockAchie: 3
+    LevelUnlockMarket: 3
+    LevelUnlockOrder: 3
+    LevelUnlockNextMinigame: 5
+    coinMiniGame: 200
+    diamondMiniGame: 5
+    LevelUnlockOrderHarbor: 10
+    timeDeleteOrderHarbor: 300
+    LevelUnlockGoldMine: 8
+    numMaterialGoldmine: 2
+    goldMine: 100
+    timeGoldMine: 600
+    baseExp: 10
+    rateExp: 1.2
+    mutilOrder: 0.2
+    BaseCountBonusOder: 2
+    expGarbage: 1

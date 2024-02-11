@@ -1,0 +1,262 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05af61a25d8106f46a40cc3864601220, type: 3}
+  m_Name: MarketAsset
+  m_EditorClassIdentifier: 
+  useRandom: 0
+  list: []
+  listBuy:
+  - name: slot0
+    id: 0
+    idThumb: 
+    index: 0
+    description: Wheat
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 1
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: buy
+    gem: 3
+  - name: slot1
+    id: 1
+    idThumb: 
+    index: 1
+    description: Wheat
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 1
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: buy
+    gem: 3
+  - name: slot2
+    id: 2
+    idThumb: 
+    index: 2
+    description: Wheat
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 1
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: buy
+    gem: 3
+  - name: slot3
+    id: 3
+    idThumb: 
+    index: 3
+    description: Wheat
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 1
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: buy
+    gem: 3
+  - name: slot4
+    id: 4
+    idThumb: 
+    index: 4
+    description: Wheat
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 1
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: buy
+    gem: 3
+  - name: slot5
+    id: 5
+    idThumb: 
+    index: 5
+    description: Wheat
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 1
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: buy
+    gem: 3
+  - name: slot6
+    id: 6
+    idThumb: 
+    index: 6
+    description: Wheat
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 1
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: buy
+    gem: 3
+  - name: slot7
+    id: 7
+    idThumb: 
+    index: 7
+    description: Wheat
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 1
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: buy
+    gem: 3
+  listSell:
+  - name: slot0
+    id: 0
+    idThumb: 
+    index: 0
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: Sale
+    gem: 3
+  - name: slot1
+    id: 1
+    idThumb: 
+    index: 1
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: Sale
+    gem: 3
+  - name: slot2
+    id: 2
+    idThumb: 
+    index: 2
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: Sale
+    gem: 3
+  - name: slot3
+    id: 3
+    idThumb: 
+    index: 3
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: Sale
+    gem: 3
+  - name: slot4
+    id: 4
+    idThumb: 
+    index: 4
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: Sale
+    gem: 3
+  - name: slot5
+    id: 5
+    idThumb: 
+    index: 5
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: Sale
+    gem: 3
+  - name: slot6
+    id: 6
+    idThumb: 
+    index: 6
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: Sale
+    gem: 3
+  - name: slot7
+    id: 7
+    idThumb: 
+    index: 7
+    description: 
+    unlockType: 1
+    unlockPrice: 1
+    isUnlocked: 0
+    isSelected: 0
+    count: 0
+    unlockPay: 0
+    type: Sale
+    gem: 3
+  data_json_Buy: '{"marketDatas":[{"id":0,"gem":3},{"id":1,"gem":3},{"id":2,"gem":3},{"id":3,"gem":3},{"id":4,"gem":3},{"id":5,"gem":3},{"id":6,"gem":3},{"id":7,"gem":3}]}'
+  data_json_Cell: '{"marketDatas":[{"id":0,"gem":3},{"id":1,"gem":3},{"id":2,"gem":3},{"id":3,"gem":3},{"id":4,"gem":3},{"id":5,"gem":3},{"id":6,"gem":3},{"id":7,"gem":3}]}'
+  lisJson_Buy:
+  - id: 0
+    gem: 3
+  - id: 1
+    gem: 3
+  - id: 2
+    gem: 3
+  - id: 3
+    gem: 3
+  - id: 4
+    gem: 3
+  - id: 5
+    gem: 3
+  - id: 6
+    gem: 3
+  - id: 7
+    gem: 3
+  lisJson_Cell:
+  - id: 0
+    gem: 3
+  - id: 1
+    gem: 3
+  - id: 2
+    gem: 3
+  - id: 3
+    gem: 3
+  - id: 4
+    gem: 3
+  - id: 5
+    gem: 3
+  - id: 6
+    gem: 3
+  - id: 7
+    gem: 3
