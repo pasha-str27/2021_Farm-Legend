@@ -25,11 +25,11 @@ MonoBehaviour:
     isSelected: 0
     count: 0
     unlockPay: 0
-    coin: 7
-    exp: 3
+    coin: 9
+    exp: 2
     productNeeds:
-    - name: Wheat
-      need: 3
+    - name: Corn
+      need: 2
   - name: Jewelry Shop
     id: 1
     idThumb: 
@@ -41,11 +41,11 @@ MonoBehaviour:
     isSelected: 0
     count: 0
     unlockPay: 0
-    coin: 9
-    exp: 2
+    coin: 0
+    exp: 3
     productNeeds:
-    - name: Corn
-      need: 2
+    - name: Bread
+      need: 3
   numCoin: 0.5
   numExp: 0.5
   data_name: '{"names":["Schools","Jewelry Shop","Grocery Store","Eatery","Flower
@@ -63,9 +63,9 @@ MonoBehaviour:
   dataOrders:
   - name: Schools
     productNeeds:
-    - name: Wheat
-      need: 3
-  - name: Jewelry Shop
-    productNeeds:
     - name: Corn
       need: 2
+  - name: Jewelry Shop
+    productNeeds:
+    - name: Bread
+      need: 3

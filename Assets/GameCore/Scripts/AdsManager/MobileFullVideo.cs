@@ -8,13 +8,13 @@ using System;
 public class MobileFullVideo : MonoBehaviour
 {
     Action onComplite;
-    public string adUnitIdAndroid = "ca-app-pub-3940256099942544/1033173712";
+    public string adUnitIdAndroid = "ca-app-pub-2860978374448480/4042200052";
     public string adUnitIdIos = "ca-app-pub-3940256099942544/1033173712";
-    bool isTest = true;
+    bool isTest = false;
 #if USE_ADMOB
     //full Video Ad
     private static InterstitialAd interstitial;
-    string idTest = "ca-app-pub-3940256099942544/1033173712";
+    string idTest = "ca-app-pub-2860978374448480/4042200052";
 #endif
 
     void Awake()

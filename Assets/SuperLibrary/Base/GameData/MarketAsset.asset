@@ -19,7 +19,7 @@ MonoBehaviour:
     id: 0
     idThumb: 
     index: 0
-    description: Wheat
+    description: 
     unlockType: 1
     unlockPrice: 1
     isUnlocked: 1
@@ -32,7 +32,7 @@ MonoBehaviour:
     id: 1
     idThumb: 
     index: 1
-    description: Wheat
+    description: 
     unlockType: 1
     unlockPrice: 1
     isUnlocked: 1
@@ -45,7 +45,7 @@ MonoBehaviour:
     id: 2
     idThumb: 
     index: 2
-    description: Wheat
+    description: 
     unlockType: 1
     unlockPrice: 1
     isUnlocked: 1
@@ -58,7 +58,7 @@ MonoBehaviour:
     id: 3
     idThumb: 
     index: 3
-    description: Wheat
+    description: 
     unlockType: 1
     unlockPrice: 1
     isUnlocked: 1
@@ -71,7 +71,7 @@ MonoBehaviour:
     id: 4
     idThumb: 
     index: 4
-    description: Wheat
+    description: 
     unlockType: 1
     unlockPrice: 1
     isUnlocked: 1
@@ -84,7 +84,7 @@ MonoBehaviour:
     id: 5
     idThumb: 
     index: 5
-    description: Wheat
+    description: 
     unlockType: 1
     unlockPrice: 1
     isUnlocked: 1
@@ -97,7 +97,7 @@ MonoBehaviour:
     id: 6
     idThumb: 
     index: 6
-    description: Wheat
+    description: 
     unlockType: 1
     unlockPrice: 1
     isUnlocked: 1
@@ -110,7 +110,7 @@ MonoBehaviour:
     id: 7
     idThumb: 
     index: 7
-    description: Wheat
+    description: 
     unlockType: 1
     unlockPrice: 1
     isUnlocked: 1
