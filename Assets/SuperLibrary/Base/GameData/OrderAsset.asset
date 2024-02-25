@@ -25,10 +25,10 @@ MonoBehaviour:
     isSelected: 0
     count: 0
     unlockPay: 0
-    coin: 9
+    coin: 4
     exp: 2
     productNeeds:
-    - name: Corn
+    - name: Wheat
       need: 2
   - name: Jewelry Shop
     id: 1
@@ -41,10 +41,10 @@ MonoBehaviour:
     isSelected: 0
     count: 0
     unlockPay: 0
-    coin: 0
+    coin: 7
     exp: 3
     productNeeds:
-    - name: Bread
+    - name: Wheat
       need: 3
   numCoin: 0.5
   numExp: 0.5
@@ -63,9 +63,9 @@ MonoBehaviour:
   dataOrders:
   - name: Schools
     productNeeds:
-    - name: Corn
+    - name: Wheat
       need: 2
   - name: Jewelry Shop
     productNeeds:
-    - name: Bread
+    - name: Wheat
       need: 3

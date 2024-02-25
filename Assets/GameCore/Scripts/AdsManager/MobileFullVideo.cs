@@ -7,6 +7,10 @@ using GoogleMobileAds.Api;
 using System;
 public class MobileFullVideo : MonoBehaviour
 {
+    [SerializeField] float timeToShowAdvertisement = 300;
+    [SerializeField] float liveTimeRemoveAdsButton = 15;
+    [SerializeField] GameObject removeAdsButton;
+
     Action onComplite;
     public string adUnitIdAndroid = "ca-app-pub-2860978374448480/4042200052";
     public string adUnitIdIos = "ca-app-pub-3940256099942544/1033173712";
@@ -19,6 +23,8 @@ public class MobileFullVideo : MonoBehaviour
 
     void Awake()
     {
+        Debug.Log(name);
+
 #if USE_ADMOB
         MobileAds.SetiOSAppPauseOnBackground(true);
 
@@ -30,13 +36,24 @@ public class MobileFullVideo : MonoBehaviour
 
     IEnumerator Start()
     {
-        var waiter = new WaitForSeconds(5 * 60);
+        var waiter = new WaitForSeconds(timeToShowAdvertisement);
 
         while (true)
         {
             yield return waiter;
-            ShowFullNormal(null, null);
+
+            if(PlayerPrefs.GetInt("no_ads", 0) == 1)
+                yield break;
+
+            ShowFullNormal(() => StartCoroutine(ShowRemoveAdsButton()), null);
         }
+    }
+
+    IEnumerator ShowRemoveAdsButton()
+    {
+        removeAdsButton.SetActive(true);
+        yield return new WaitForSeconds(liveTimeRemoveAdsButton);
+        removeAdsButton.SetActive(false);
     }
 
 #if USE_ADMOB
