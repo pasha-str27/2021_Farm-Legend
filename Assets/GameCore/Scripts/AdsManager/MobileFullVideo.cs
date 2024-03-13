@@ -12,8 +12,8 @@ public class MobileFullVideo : MonoBehaviour
     [SerializeField] GameObject removeAdsButton;
 
     Action onComplite;
-    public string adUnitIdAndroid = "ca-app-pub-2860978374448480/4042200052";
-    public string adUnitIdIos = "ca-app-pub-3940256099942544/1033173712";
+    string adUnitIdAndroid = "ca-app-pub-2860978374448480/4042200052";
+    string adUnitIdIos = "ca-app-pub-3940256099942544/1033173712";
     bool isTest = false;
 #if USE_ADMOB
     //full Video Ad

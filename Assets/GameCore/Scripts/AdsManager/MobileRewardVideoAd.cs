@@ -8,8 +8,8 @@ using System;
 public class MobileRewardVideoAd : MonoBehaviour
 {
     string idTest = "ca-app-pub-3940256099942544/5224354917";
-    public string IdRewardedVideoAndroid = "ca-app-pub-2860978374448480/7612374431"; // Ban goc
-    public string IdRewardedVideoIOs = "ca-app-pub-3940256099942544/5224354917"; // Ban goc
+    string IdRewardedVideoAndroid = "ca-app-pub-2860978374448480/7612374431"; // Ban goc
+    string IdRewardedVideoIOs = "ca-app-pub-3940256099942544/5224354917"; // Ban goc
     bool isTest = false;
 #if USE_ADMOB
     private RewardedAd rewardAd;
